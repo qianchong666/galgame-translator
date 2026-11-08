@@ -1,0 +1,27 @@
+# 虚拟环境 / 依赖
+.venv/
+__pycache__/
+*.pyc
+
+# 归档与交付成品（本地留档，不入库）
+归档/
+成品/
+
+# 运行产物
+OUT*/
+out/
+*.log
+state.jsonl
+chunks.jsonl
+job.json
+*_SUMMARY.json
+
+# 黄金集与实验记录（含真实文本，本地自建）
+bench/golden/
+bench/*.json
+
+# 编辑器/系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
