@@ -1,0 +1,60 @@
+{
+  "id": 43,
+  "status": "ok",
+  "text": "【#11#】「什么不是？小优，你要是不老实交代，我就去告诉姐姐哦」\n【#11#】「我会说，现在这里有个偷窥狂变态，而且小鸡鸡还勃起了」\n优 「…………诶？」\n不要啊。\n要是她那么做的话，我绝对会被【#10#】姐讨厌的。\n优「所，所以……我……那个……」\n【#11#】「你……什么？」\n优「那个……我起来上厕所……回来之后，那个……从里面……那个……传来了声音……」\n【#11#】「哎呀……姐姐和姐夫，是在做爱吗？」\n优「不，不是的……那个……」\n【#11#】「好好说清楚，姐姐怎么了？」\n优「她，她在自慰……【#10#】姐……」\n【#11#】「啊……是这样啊……」\n【#11#】「所以……你就想和姐姐一起自慰了？」\n优「是，是的……对不起……」",
+  "attempts": 2,
+  "elapsed": 11.862289428710938,
+  "checks": [],
+  "metrics": {
+    "lines_src": 15,
+    "lines_dst": 15,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 13,
+    "quote_dst": 13,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7745664739884393,
+    "similarity": 0.02023121387283237,
+    "max_repeat": 1,
+    "unique_char": 0.3246268656716418
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "15→17"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 405
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 322
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "整体语义准确，语气与原文一致，无实质错误。",
+    "at": "2026-11-08 18:07:37",
+    "secs": 1.2
+  }
+}

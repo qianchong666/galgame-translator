@@ -1,0 +1,98 @@
+{
+  "id": 4,
+  "status": "failed",
+  "text": "【长文记忆·仅供保持一致，不要翻译】\n体裁：官能小说\n视点：第一人称（男主“优”）\n语体：です・ます調\n基调：淫靡、妄想、少年の視点\n人物：优（男主，学生）[优君]、礼子（友香御主人，贵史的母亲，人妻）[礼子小姐]、友香（礼子的丈夫，优香的丈夫）[御主人]、贵史（优的同学，礼子的儿子）[贵史]、九条礼子（优的同学，九条家的女儿）[礼子]、九条（优的同学，礼子的父亲）[九条]、女#26（DVD封面的人妻，被提及）[女#26]、九条礼子（优的同学，九条家的女儿）[礼子]\n本场人物：优、礼子\n称呼：优称礼子为“礼子小姐”\n指代提醒：「礼子小姐」是对礼子的指代\n语体：仍为です・ます調\n\n直到刚才为止，我只觉得礼子小姐是一位认真而美丽的母亲，但她现在却露出了那样的表情。\n【#10#】「嗯啊啊，啊……嗯，啊嗯……啊啊，呼嗯」\n汗珠反射着湿润的光泽，栗色的头发贴在额头上，双眼迷离地注视着虚空。\n就是这张脸。\n我一直想看到的礼子小姐淫荡的表情。\n【#10#】「哈啊……嗯啊啊，嗯，嗯，嗯唔嗯」\n虽然知道这样不好，但我的肉棒已经硬邦邦的，目光再也无法从礼子小姐身上移开。\n【#10#】「……嗯，嗯啊，啊……唔呼唔嗯……啊，嗯，好棒……啊，啊啊嗯嗯」\n她将那双漂亮的手夹在大腿之间，时而缓慢，时而快速地，无比淫靡地摆动着。\n礼子小姐的手指在那条内裤下面到底做出了多么厉害的动作呢？\n我完全无法想象。\n【#10#】「啊啊嗯……嗯，嗯呼……嗯，嗯唔嗯」",
+  "attempts": 4,
+  "elapsed": 57.53538203239441,
+  "checks": [
+    {
+      "name": "line_count",
+      "level": "fail",
+      "detail": "12→22"
+    }
+  ],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 22,
+    "line_diff": 0.8333333333333334,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 4,
+    "quote_dst": 5,
+    "kana_ratio": 0.015100671140939598,
+    "length_ratio": 1.6741573033707866,
+    "similarity": 0.0056179775280898875,
+    "max_repeat": 1,
+    "unique_char": 0.3674496644295302
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→22"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "4.2%"
+        }
+      ],
+      "chars": 620
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→22"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "4.2%"
+        }
+      ],
+      "chars": 617
+    },
+    {
+      "round": 3,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→22"
+        }
+      ],
+      "chars": 620
+    },
+    {
+      "round": "line",
+      "status": "failed",
+      "checks": [
+        {
+          "name": "ph_malformed",
+          "level": "fail",
+          "detail": "占位符畸形: 【%102;】 【%102;】 【%142】"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "4→9"
+        }
+      ]
+    }
+  ],
+  "detail": "failed | line_count:fail(12→22)"
+}

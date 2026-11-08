@@ -1,0 +1,60 @@
+{
+  "id": 56,
+  "status": "ok",
+  "text": "还是说……一想象到那一步，刚刚才射过的肉棒又开始颤抖了。\n——第二天早上。\n在清晨微弱的阳光中醒来时，晨勃的肉棒已经胀得很大了。\n优「那真的是……现实啊」\n我用自己的手握紧肉棒，虽然嘴上这么说，但总感觉像在做梦一样。\n昨天晚上发生的一切。\n半夜起来上厕所的时候，【#10#】小姐正在主人的旁边自慰。\n我一边偷窥，一边也自慰起来，结果被【#10#】小姐的妹妹友香小姐发现了。\n本以为会被骂，【#11#】小姐却用自己的手帮我撸了。\n感觉非常舒服，射出了好多精液，把【#11#】小姐的身体弄得黏糊糊的。\n原来真的会发生这种事啊。\n现在时间才六点。\n【#12#】还在呼呼大睡。",
+  "attempts": 2,
+  "elapsed": 9.885838270187378,
+  "checks": [],
+  "metrics": {
+    "lines_src": 13,
+    "lines_dst": 13,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 1,
+    "quote_dst": 1,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7673716012084593,
+    "similarity": 0.0030211480362537764,
+    "max_repeat": 1,
+    "unique_char": 0.5354330708661418
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "13→15"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 361
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 284
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 18:07:42",
+    "secs": 1.1
+  }
+}

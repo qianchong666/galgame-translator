@@ -1,0 +1,60 @@
+{
+  "id": 42,
+  "status": "ok",
+  "text": "【#11#】「嗯～～～什么碰巧？偷窥女性的寝室，让小鸡鸡变大是碰巧吗？」\n【#11#】「而且，明明被我发现了，还变得这么大。好色哦？」\n【#11#】用手指弹了一下我的小鸡鸡。\n优「…………嗯嗯！」\n明明只是这样，我的小鸡鸡却剧烈地颤抖着。\n【#11#】「哇，好厉害。」\n我到底是怎么了？\n在这种地方被发现，明明羞耻得要死，小鸡鸡却一点也没有变小。\n不仅如此，还心跳加速。\n【#11#】「小优会做那种事，是因为喜欢姐姐吧？」\n【#11#】「这个家里明明还有我在，小优却更想偷窥姐姐。哦——这样啊……」\n优「那……那个……不是那样的……」",
+  "attempts": 2,
+  "elapsed": 10.235954999923706,
+  "checks": [],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 7,
+    "quote_dst": 7,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.6814159292035398,
+    "similarity": 0.017699115044247787,
+    "max_repeat": 1,
+    "unique_char": 0.4329004329004329
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 344
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 267
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文意思，语感自然，无实质错误。",
+    "at": "2026-11-08 18:07:37",
+    "secs": 1.2
+  }
+}

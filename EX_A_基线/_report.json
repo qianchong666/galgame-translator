@@ -1,0 +1,21 @@
+{
+  "source": "G:\\hermes desktop\\Hermes\\cache\\scratch\\mini_ja.txt",
+  "out_dir": "EX_A_基线",
+  "status": "ok",
+  "chunks": 17,
+  "ok": 14,
+  "degraded": 3,
+  "failed": 0,
+  "chars": 6022,
+  "duration": 38.17,
+  "failed_ids": [],
+  "bad_checks": {
+    "placeholder": 2,
+    "kana_residue": 1
+  },
+  "outputs": [
+    "EX_A_基线\\mini_ja_仅翻译.txt",
+    "EX_A_基线\\mini_ja_对照.txt"
+  ],
+  "notes": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": 52,
+  "status": "ok",
+  "text": "【#11#】「呵呵，处男真是没办法呢。不过，你这种地方也很可爱哦」\n这种事……我怎么可能……忍得住啊。\n明明……明明这么舒服……优「【#11#】……姐……嗯，我，我……嗯，要射了……要射了……」\n【#11#】「可以哦，射出来吧。看着姐姐自慰，把积攒的精液全都射给我吧」\n【#11#】「来，来，来来来～～～～！！」\n优「【#11#】姐！！」\n下一刻，我的腹部深处猛地一热，我对着友香小姐狠狠地将肉棒顶了出去。\n【#11#】「呀！！啊啊嗯！！」\n肉棒在【#11#】姐的手中一跳一跳地颤动着。\n【#11#】「啊，啊啊嗯……啊，好厉害……射了好多……小优，啊，啊嗯……唔唔嗯嗯！！」",
+  "attempts": 2,
+  "elapsed": 11.271508932113647,
+  "checks": [],
+  "metrics": {
+    "lines_src": 10,
+    "lines_dst": 10,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 7,
+    "quote_dst": 7,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7050147492625368,
+    "similarity": 0.017699115044247787,
+    "max_repeat": 1,
+    "unique_char": 0.39330543933054396
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "10→12"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 376
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 287
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误，符合原文语境与风格。",
+    "at": "2026-11-08 18:07:41",
+    "secs": 1.1
+  }
+}

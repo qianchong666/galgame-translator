@@ -206,6 +206,8 @@ class Translator:
         self.out_root = Path(out_root)
         self.clients = list(clients or [])
         self.cancel = cancel or threading.Event()
+        self.mem_brief: dict = {}       # 长文记忆：文档简报
+        self.mem_rows: dict = {}        # 长文记忆：按块号的台账
         self.term_judge = director          # 中控：专名定名 + 块复核（可缺）
         self.progress = progress
         self.dry_run = dry_run
@@ -257,6 +259,30 @@ class Translator:
             rep.duration = time.time() - t0
             write_json_atomic(base / "_report.json", rep.to_dict())
             return rep
+
+        # --- 长文记忆（实验）：翻译前按原文顺序预扫，产出文档简报 + 分场台账
+        self.mem_brief, self.mem_rows = {}, {}
+        if getattr(self.cfg, "doc_memory", False) and not self.dry_run:
+            from . import memory as memmod
+            if (base / memmod.MEMORY_FILE).exists():
+                self.mem_brief, self.mem_rows = memmod.load_memory(base)
+                self.log.info(f"  ↺ 复用长文记忆（{len(self.mem_rows)} 条台账）")
+            else:
+                t_mem = time.time()
+                texts = [self._chunk_text(base, int(c["id"])) for c in chunks]
+                terms_all = (read_json(base / "terms.json", {}) or {}).get("terms", [])
+                brief = memmod.build_brief(self.cfg, self.log, texts, terms_all)
+                nmap = {str(e.get("idx")): (e.get("target") or e.get("term"))
+                        for e in terms_all if e.get("idx") is not None}
+                rows = memmod.build_ledgers(self.cfg, self.log, texts, brief,
+                                            scene=int(getattr(self.cfg, "memory_scene", 8)),
+                                            names=nmap)
+                if brief or rows:
+                    memmod.save_memory(base, brief, rows)
+                    self.mem_brief = brief
+                    self.mem_rows = {int(r["cid"]): r for r in rows}
+                    self.log.info(f"  📝 长文记忆就绪：{len(rows)} 条台账"
+                                  f"（{time.time() - t_mem:.0f}s）")
 
         # --- 逐块翻译
         results = self.translate_chunks(base, chunks, tm)
@@ -683,6 +709,13 @@ class Translator:
                 break
             user = src + (("\n\n" + retry_note) if retry_note else "")
             system = "" if bare else build_system_prompt(self.prompt, context)
+            mem_txt = ""
+            if not bare and (self.mem_brief or self.mem_rows):
+                from .memory import render_block
+                mem_txt = render_block(self.mem_brief, self.mem_rows.get(cid))
+                if mem_txt:
+                    # 放最前面：紧贴正文时几乎必被抄（sakura 系模型）
+                    system = mem_txt + "\n\n" + system
             mtokens = int(min(self.cfg.max_tokens_cap,
                               max(96, len(src) * self.cfg.max_tokens_per_char)))
             try:
@@ -706,6 +739,12 @@ class Translator:
                     pass
 
             text = strip_context_echo(text, context)
+            if mem_txt:
+                from .memory import strip_echo as _strip_mem
+                t2 = _strip_mem(text, mem_txt)
+                if t2 != text:
+                    self.log.info(f"    块{cid:06d} 记忆块被抄进译文 → 已剥离")
+                    text = t2
             text = strip_prompt_echo(text, self.prompt)   # 整段复读提示词 → 确定性剥掉
             text = self._post_clean(text)
             val = validate_chunk(src, text, tm, self.cfg, prompt=self.prompt,

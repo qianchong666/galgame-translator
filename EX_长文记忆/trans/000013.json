@@ -1,0 +1,123 @@
+{
+  "id": 13,
+  "status": "failed",
+  "text": "【长文记忆·仅供保持一致，不要翻译】\n体裁：官能小说\n视点：一人称（男主“优”）\n语体：です・ます調\n基调：淫靡、妄想、少年の視点\n人物：优（男主，学生）[优君]、礼子（友香御主人，贵史的母亲，人妻）[礼子さん]、友香（礼子的丈夫，优香的丈夫）[御主人]、贵史（优的同学，礼子的儿子）[贵史]、九条礼子（优的同学，九条家的女儿）[礼子]、九条（优的同学，礼子的父亲）[九条]、女#26（DVD封面的人妻，被提及）[女#26]、九条礼子（优的同学，九条家的女儿）[礼子]\n本场人物：优，贵史，九条礼子，九条贵史\n称呼：['优称贵史为「贵史」或「贵史君」', '优称九条礼子为「礼子さん」', '九条贵史称优为「优」'\n指代提醒：['「僕」是优', '「礼子さん」是九条礼子', '「女老师」是九条礼子', '「贵史」是九条贵史']\n语体：仍为です・ます調\n\n【#12#】遗憾地说道，从架子上拿出了一张写着“巨乳人妻【#26#】”的ＤＶＤ。\n优「那种东西，是怎么做出来的啊」\n【#12#】「这个我知道哦」\n【#12#】「我记得，好像是把蛋清，蜂蜜，炼乳和香草精混合在一起做成的」\n优「诶——感觉会很甜呢」\n【#12#】「所以才做得那么甜吧。你看，为了让女人能喝下去嘛。然后，再让她们说“好喝”之类的」\n优 「难道说，【#12#】，你做过那种东西喝过吗？」\n【#12#】「笨蛋。谁会做那种事啊」\n优「嗯——所以才一个人玩精液play吗。没有那种事吧？」\n【#12#】「那也太变态了吧。啊……不过，我之前在网上看到过一种叫自慰口交的东西哦」\n优「那是什么？」",
+  "attempts": 4,
+  "elapsed": 45.569939851760864,
+  "checks": [
+    {
+      "name": "line_count",
+      "level": "fail",
+      "detail": "11→21"
+    },
+    {
+      "name": "quote_anchor",
+      "level": "warn",
+      "detail": "10→18"
+    },
+    {
+      "name": "kana_residue",
+      "level": "warn",
+      "detail": "2.4%"
+    }
+  ],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 21,
+    "line_diff": 0.9090909090909091,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 10,
+    "quote_dst": 18,
+    "kana_ratio": 0.023923444976076555,
+    "length_ratio": 1.971698113207547,
+    "similarity": 0.0031446540880503146,
+    "max_repeat": 1,
+    "unique_char": 0.34290271132376393
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→21"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "10→18"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.4%"
+        }
+      ],
+      "chars": 671
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→21"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "10→18"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.4%"
+        }
+      ],
+      "chars": 669
+    },
+    {
+      "round": 3,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→21"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "10→18"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.4%"
+        }
+      ],
+      "chars": 675
+    },
+    {
+      "round": "line",
+      "status": "failed",
+      "checks": [
+        {
+          "name": "ph_malformed",
+          "level": "fail",
+          "detail": "占位符畸形: 【%155;】 【%195;【#12#】 【%102;#12#】"
+        },
+        {
+          "name": "placeholder",
+          "level": "fail",
+          "detail": "缺失1: [26]"
+        }
+      ]
+    }
+  ],
+  "detail": "failed | line_count:fail(11→21); quote_anchor:warn(10→18); kana_residue:warn(2.4%)"
+}

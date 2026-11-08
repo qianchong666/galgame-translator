@@ -1,0 +1,42 @@
+{
+  "version": "4.0",
+  "style": "hash",
+  "terms": [
+    {
+      "idx": 1,
+      "term": "真理乃",
+      "type": "人名",
+      "target": "真理乃",
+      "conf": "high",
+      "count": 1,
+      "note": "中控定名(同形)"
+    },
+    {
+      "idx": 2,
+      "term": "礼子",
+      "type": "人名",
+      "target": "礼子",
+      "conf": "high",
+      "count": 63,
+      "note": "中控定名(同形)"
+    },
+    {
+      "idx": 3,
+      "term": "友香",
+      "type": "人名",
+      "target": "友香",
+      "conf": "high",
+      "count": 1,
+      "note": "中控定名(同形)"
+    },
+    {
+      "idx": 4,
+      "term": "貴史",
+      "type": "人名",
+      "target": "贵史",
+      "conf": "medium",
+      "count": 33,
+      "note": "中控定名"
+    }
+  ]
+}

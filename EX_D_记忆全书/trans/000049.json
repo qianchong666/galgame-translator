@@ -1,0 +1,60 @@
+{
+  "id": 49,
+  "status": "ok",
+  "text": "【#11#】「嗯啾……嗯，咧咯……味道好浓……啊嗯，真的好棒……啾噗，嗯」\n【#11#】「啾噗……嗯啾嗯……嗯啾噜嗯嗯，嗯嗯……好好吃……啊呼……嗯」\n她在舔……【#11#】同学。\n她正在舔我鸡鸡上流出的肮脏液体。\n而且舔得好像很美味。\n【#11#】「嗯……啾噗……我说，小优……你平时自慰的频率是多少呀？」\n优「诶……？」\n【#11#】「就是自慰啦。你这么年轻，肯定一天一次根本忍不住吧。对吧？」\n她一边把预射液抹在肉柱上，一边发出咕啾咕啾的淫荡声音撸动着，同时向我问道。\n优「那……那个……平时，大概两次……多的时候，四次，五次……嗯嗯」\n她那缠绕上来的手好舒服，我已经顾不上害羞了。",
+  "attempts": 2,
+  "elapsed": 11.451525688171387,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 6,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7652173913043478,
+    "similarity": 0.020289855072463767,
+    "max_repeat": 1,
+    "unique_char": 0.4356060606060606
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 390
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 294
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文的色情场景与对话，无实质错误。",
+    "at": "2026-11-08 18:07:40",
+    "secs": 1.3
+  }
+}

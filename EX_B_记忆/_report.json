@@ -1,0 +1,21 @@
+{
+  "source": "G:\\hermes desktop\\Hermes\\cache\\scratch\\mini_ja.txt",
+  "out_dir": "EX_B_记忆",
+  "status": "ok",
+  "chunks": 17,
+  "ok": 15,
+  "degraded": 2,
+  "failed": 0,
+  "chars": 6022,
+  "duration": 21.26,
+  "failed_ids": [],
+  "bad_checks": {
+    "placeholder": 1,
+    "kana_residue": 1
+  },
+  "outputs": [
+    "EX_B_记忆\\mini_ja_仅翻译.txt",
+    "EX_B_记忆\\mini_ja_对照.txt"
+  ],
+  "notes": []
+}

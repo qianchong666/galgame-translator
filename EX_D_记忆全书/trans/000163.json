@@ -1,0 +1,50 @@
+{
+  "id": 163,
+  "status": "degraded",
+  "text": "优「…………什么？」\n咦？\n【#11#】的脸红了。\n【#11#】「你看嘛，我和小优……昨天，那个……不是做了吗……就是那个」\n优「啊……是，是啊……嗯」\n被满脸羞涩的友香注视着，我也开始害羞起来。\n【#11#】「听我说，根据我的经验，那个很强的人，酒量也——」\n【#11#】「真是的，小优，你让我说了什么呀」\n【#11#】满脸通红地笑着，用力拍了拍我的后背。\n优「好痛，很痛啊，【#11#】。这不是你自己要说的吗」\n【#11#】「真，真是的。一大早就脸红了。我去冲个凉吧」\n说完，【#11#】就啪嗒啪嗒地逃走了。\n优「…………嘿嘿」\n是吗。\n原来我算强的啊。",
+  "attempts": 1,
+  "elapsed": 6.708976745605469,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [11]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 15,
+    "lines_dst": 15,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 8,
+    "quote_dst": 8,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.719626168224299,
+    "similarity": 0.040498442367601244,
+    "max_repeat": 1,
+    "unique_char": 0.3939393939393939
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 279
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "整体语义准确，语气和对话节奏还原良好，无实质错误。",
+    "at": "2026-11-08 18:08:32",
+    "secs": 1.0
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "source": "G:\\hermes desktop\\Hermes\\cache\\scratch\\mini_ja.txt",
+  "reason": "12 个块未通过质检（strict 模式不产出成品）",
+  "failed_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15
+  ],
+  "failed_detail": [
+    {
+      "id": 1,
+      "detail": "failed | line_count:fail(21→25)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "21→25"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "detail": "failed | line_count:fail(14→18)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→18"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "detail": "failed | line_count:fail(11→15)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→15"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "detail": "failed | line_count:fail(12→16)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→16"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "detail": "failed | line_count:fail(12→16)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→16"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "detail": "failed | line_count:fail(9→13)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "9→13"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "detail": "failed | line_count:fail(11→15)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→15"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "detail": "failed | line_count:fail(11→15)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→15"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "detail": "failed | line_count:fail(24→28); quote_anchor:warn(5→8)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "24→28"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "5→8"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "detail": "failed | line_count:fail(12→16); quote_anchor:warn(12→20)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→16"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "12→20"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "detail": "failed | line_count:fail(10→14); quote_anchor:warn(9→17)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "10→14"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "9→17"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "detail": "failed | line_count:fail(15→19); quote_anchor:warn(11→19)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "15→19"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "11→19"
+        }
+      ]
+    }
+  ],
+  "hint": "可用 --allow-partial 生成部分译文，或调大 chunk 尺寸/换模型重跑"
+}

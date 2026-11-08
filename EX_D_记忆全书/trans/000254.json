@@ -1,0 +1,50 @@
+{
+  "id": 254,
+  "status": "degraded",
+  "text": "虽然他笑着说“年长的女性又不是只有友香一个”，但心里应该很难受吧。\n对于告诉我这些的贵史，我却对他隐瞒了许多秘密。\n然后，如果我选择了【#10#】或者友香，我又将对他隐瞒新的秘密。\n优「………大人，吗……」\n这就是成为大人的过程吗？\n马上就要到零点了。\n我——我……果然还是……选不出【#10#】…… 【#10#】「……………………」\n【#11#】「……………………………………」\n【#10#】和友香都瞪着我。\n她们可能不会原谅我做出这样的事。\n但是，我只能这么做。\n【#10#】「小优，这是怎么回事？为什么把我们两个都叫出来了？」\n【#11#】「就是啊，你不是说要选一个，看是要我当你的女人，还是姐姐当你的女人吗？」",
+  "attempts": 1,
+  "elapsed": 6.284951210021973,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [11]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 13,
+    "lines_dst": 13,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.782991202346041,
+    "similarity": 0.0,
+    "max_repeat": 1,
+    "unique_char": 0.41198501872659177
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 309
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达了原文的对话、心理描写与占位符，无实质错误。",
+    "at": "2026-11-08 18:09:05",
+    "secs": 1.2
+  }
+}

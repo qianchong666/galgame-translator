@@ -1,0 +1,88 @@
+{
+  "id": 8,
+  "status": "failed",
+  "text": "【长文记忆·仅供保持一致，不要翻译】\n体裁：官能小说\n视点：第一人称（男主“优”）\n语体：です・ます調\n基调：淫靡、妄想、少年の視点\n人物：优（男主，学生）[优君]、礼子（友香御主人，贵史的母亲，人妻）[礼子小姐]、友香（礼子的丈夫，优香的丈夫）[御主人]、贵史（优的同学，礼子的儿子）[贵史]、九条礼子（优的同学，九条家的女儿）[礼子]、九条（优的同学，礼子的父亲）[九条]、女#26（DVD封面的人妻，被提及）[女#26]、九条礼子（优的同学，九条家的女儿）[礼子]\n本场人物：优、礼子\n称呼：优称礼子为“礼子小姐”\n指代提醒：「礼子小姐」是对礼子的指代\n语体：仍为です・ます調\n\n【#10#】「嗯，嗯……嗯……我，也是……嗯，要做爱的时候……嗯，就会做啊…………嗯，嗯呼啊！」\n啊啊……如果对方是我，那该有多好啊。\n不，哪怕只有一次也好。\n如果这么淫荡又迷人的礼子小姐能成为我的第一个对象……\n我沉浸在和【#10#】小姐做爱的妄想中，配合礼子小姐渐渐变短的喘息，撸动着肉棒。\n【#10#】「哈，哈，哈啊嗯，哈啊，啊啊，啊，啊啊啊」\n被汗水打湿的乳房开始剧烈地跳动起来。\n【#10#】「啊啊，嗯嗯，啊，啊，啊，啊啊，啊啊嗯嗯，嗯嗯嗯！！」\n礼子小姐撅起屁股，夹在双腿之间的手激烈地活动着，表情也越发淫荡地扭曲起来。\n要去了。\n【#10#】小姐要高潮了。",
+  "attempts": 4,
+  "elapsed": 53.5457923412323,
+  "checks": [
+    {
+      "name": "line_count",
+      "level": "fail",
+      "detail": "11→21"
+    }
+  ],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 21,
+    "line_diff": 0.9090909090909091,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 3,
+    "quote_dst": 4,
+    "kana_ratio": 0.016423357664233577,
+    "length_ratio": 1.5884057971014494,
+    "similarity": 0.002898550724637681,
+    "max_repeat": 1,
+    "unique_char": 0.3467153284671533
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→21"
+        }
+      ],
+      "chars": 578
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→21"
+        }
+      ],
+      "chars": 584
+    },
+    {
+      "round": 3,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→21"
+        }
+      ],
+      "chars": 578
+    },
+    {
+      "round": "line",
+      "status": "failed",
+      "checks": [
+        {
+          "name": "ph_malformed",
+          "level": "fail",
+          "detail": "占位符畸形: 【%102;】 【%102;】 【%102;】"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "3→7"
+        }
+      ]
+    }
+  ],
+  "detail": "failed | line_count:fail(11→21)"
+}

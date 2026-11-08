@@ -1,0 +1,43 @@
+{
+  "source": "归档\\旧输出\\OUT\\20260811_011932_M人妻S未亡人（排版）_clean.txt",
+  "reason": "2 个块未通过质检（strict 模式不产出成品）",
+  "failed_ids": [
+    6,
+    51
+  ],
+  "failed_detail": [
+    {
+      "id": 6,
+      "detail": "failed | line_count:fail(10→13)",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "10→13"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "detail": "failed | prompt_echo:fail(命中特征: 不要输出任何说明性文字); line_count:fail(11→13); placeholder:warn(次数不符: [11])",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ]
+    }
+  ],
+  "hint": "可用 --allow-partial 生成部分译文，或调大 chunk 尺寸/换模型重跑"
+}

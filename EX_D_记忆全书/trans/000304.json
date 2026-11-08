@@ -1,0 +1,37 @@
+{
+  "id": 304,
+  "status": "ok",
+  "text": "因为我们之间的联系比任何人都要紧密。\n【#10#】同学，【#11#】同学，我们会永远永远在一起的。",
+  "attempts": 1,
+  "elapsed": 4.6911301612854,
+  "checks": [],
+  "metrics": {
+    "lines_src": 2,
+    "lines_dst": 2,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 0,
+    "quote_dst": 0,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.8604651162790697,
+    "similarity": 0.0,
+    "max_repeat": 1
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "ok",
+      "checks": [],
+      "chars": 49
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达了原文的亲密感与承诺，占位符完整保留，无实质错误。",
+    "at": "2026-11-08 18:09:34",
+    "secs": 1.7
+  }
+}

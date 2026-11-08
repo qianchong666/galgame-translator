@@ -1,0 +1,49 @@
+{
+  "id": 17,
+  "status": "degraded",
+  "text": "【#2#】「贵史平时说的那个人就是你吧。对不起啊。【#4#】他一点都不机灵。来，请用吧」\n她把香气扑鼻的红茶和水果蛋糕递给了我。\n哇，看起来好好吃。\n优「谢……谢谢您」\n【#4#】「妈，东西放好就赶紧出去吧」\n【#2#】「你这什么口气啊。人家好不容易给你买了万象（まんぞう）的水果蛋糕呢」",
+  "attempts": 1,
+  "elapsed": 4.244111776351929,
+  "checks": [
+    {
+      "name": "kana_residue",
+      "level": "warn",
+      "detail": "3.2%"
+    }
+  ],
+  "metrics": {
+    "lines_src": 6,
+    "lines_dst": 6,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 4,
+    "quote_dst": 4,
+    "kana_ratio": 0.03225806451612903,
+    "length_ratio": 0.7005649717514124,
+    "similarity": 0.005649717514124294,
+    "max_repeat": 1
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "3.2%"
+        }
+      ],
+      "chars": 144
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误。",
+    "at": "2026-11-08 17:38:26",
+    "secs": 0.7
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": 2,
+  "status": "failed",
+  "text": "4. 形如 【#10#】 的标记是系统占位符，代表已定名的人名/地名/术语，必须原样保留，不得翻译、改写、增删或移动位置。\n5. 不要输出任何说明性文字。\n\n【长文记忆·仅供保持一致，不要翻译】\n体裁：官能小说\n视点：一人称（男主“优”）\n语体：です・ます調\n基调：淫靡、妄想、少年の視点\n人物：优（男主，学生）[优君]、礼子（友香御主人，贵史的母亲，人妻）[礼子さん]、友香（礼子的丈夫，优香的丈夫）[御主人]、贵史（优的同学，礼子的儿子）[贵史]、九条礼子（优的同学，九条家的女儿）[礼子]、九条（优的同学，礼子的父亲）[九条]、女#26（DVD封面的人妻，被提及）[女#26]、九条礼子（优的同学，九条家的女儿）[礼子]\n本场人物：优、礼子\n称呼：优对礼子的称呼是「礼子さん」\n指代提醒：「礼子さん」是对礼子的指代\n语体：仍为です・ます調\n\n心脏剧烈跳动到几乎要昏厥，胯下的阴茎也一跳一跳地勃起。\n【#10#】「嗯啊……啊啊，哈啊啊……啊嗯，啊啊唔」\n——我想看啊，【#10#】小姐。\n我握住门把手，小心翼翼地转动，然后慢慢地打开门。\n【#10#】「哈啊……哈啊……哈啊……呼啊啊，啊啊……」\n优「…………啊」\n从不到一厘米的缝隙中窥视到昏暗的房间的瞬间，我倒吸了一口气。\n【#10#】「嗯呼……嗯，嗯，唔嗯……啊，啊嗯」\n礼子小姐躺在双人床上，身体微微颤抖，吐出灼热的气息。\n但是，她并不是在做爱。\n这是自慰。\n【#10#】「哈啊，嗯唔……嗯，啊，啊」\n她在自慰。\n像【#10#】小姐这样美丽，出色，已经结婚的人妻女性——也会自慰。",
+  "attempts": 4,
+  "elapsed": 54.923057079315186,
+  "checks": [
+    {
+      "name": "prompt_echo",
+      "level": "fail",
+      "detail": "命中特征: 不要输出任何说明性文字"
+    },
+    {
+      "name": "line_count",
+      "level": "fail",
+      "detail": "14→26"
+    },
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [10]"
+    },
+    {
+      "name": "kana_residue",
+      "level": "warn",
+      "detail": "2.4%"
+    }
+  ],
+  "metrics": {
+    "lines_src": 14,
+    "lines_dst": 26,
+    "line_diff": 0.8571428571428571,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 7,
+    "kana_ratio": 0.02388535031847134,
+    "length_ratio": 1.8525073746312684,
+    "similarity": 0.0,
+    "max_repeat": 1,
+    "unique_char": 0.3630573248407643
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→24"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.7%"
+        }
+      ],
+      "chars": 594
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→24"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.7%"
+        }
+      ],
+      "chars": 594
+    },
+    {
+      "round": 3,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→26"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.4%"
+        }
+      ],
+      "chars": 670
+    },
+    {
+      "round": "line",
+      "status": "failed",
+      "checks": [
+        {
+          "name": "ph_malformed",
+          "level": "fail",
+          "detail": "占位符畸形: 【%103;】"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "5→8"
+        }
+      ]
+    }
+  ],
+  "detail": "failed | prompt_echo:fail(命中特征: 不要输出任何说明性文字); line_count:fail(14→26); placeholder:warn(次数不符: [10]); kana_residue:warn(2.4%)"
+}

@@ -1,0 +1,60 @@
+{
+  "id": 46,
+  "status": "ok",
+  "text": "【#11#】「小优，你是不是想让我继续帮你自慰？」\n【#11#】小姐的手紧紧地握住了我的肉棒。\n虽然不知道【#11#】小姐到底想做什么，但被她这么一握，我的回答就只有一个了。\n优「我，我想让你帮我……【#11#】小姐……帮我撸我的肉棒……」\n【#11#】「是吗……男孩子就应该这么坦率嘛。那，我要开始了哦」\n【#11#】小姐舔了舔嘴唇，然后开始缓缓地上下撸动着包裹着我肉棒的手。\n优「呼啊……啊，啊啊……」\n仅仅只是这样，我的腰就颤抖个不停。\n这感觉和自己撸的时候完全不能比。\n【#11#】「嗯，嗯……嗯嗯嗯……嗯，嗯嗯……」\n优「啊，啊啊……等，等一下……【#11#】小……姐啊啊」",
+  "attempts": 2,
+  "elapsed": 10.923081398010254,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 6,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7393939393939394,
+    "similarity": 0.006060606060606061,
+    "max_repeat": 1,
+    "unique_char": 0.39344262295081966
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 370
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 292
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文意思，无实质错误。",
+    "at": "2026-11-08 18:07:38",
+    "secs": 1.1
+  }
+}

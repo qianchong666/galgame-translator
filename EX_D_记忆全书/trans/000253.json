@@ -1,0 +1,72 @@
+{
+  "id": 253,
+  "status": "degraded",
+  "text": "既爽朗又温柔，还很擅长玩游戏。\n但是，一旦喝了酒就会变得淫乱的友香小姐。\n那个人想要责备我。\n她们俩都一样漂亮，一样迷人，教会了我各种大人的世界，最重要的是，她们都一样下流，让我感到很舒服。\n其实，我两方都喜欢。\n不是在留宿之前那种对年长女性的憧憬，而是想成为配得上她们的成熟男人。\n但是，这大概不被允许吧。\n喜欢两方都是小孩子的任性，必须好好选择其中一方才行吧。\n【#12#】「呼ーーーー，呼ーーーーーー」\n优「…………【#12#】」\n我瞥了一眼躺在旁边睡着的贵史。\n在补习班累坏了的贵史吃完晚饭后很快就睡着了。\n不过，在上床之前，【#12#】把昨晚被【#11#】小姐甩掉的事告诉了我。",
+  "attempts": 2,
+  "elapsed": 10.175902605056763,
+  "checks": [
+    {
+      "name": "kana_residue",
+      "level": "warn",
+      "detail": "3.7%"
+    }
+  ],
+  "metrics": {
+    "lines_src": 13,
+    "lines_dst": 13,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 2,
+    "quote_dst": 2,
+    "kana_ratio": 0.037037037037037035,
+    "length_ratio": 0.7780979827089337,
+    "similarity": 0.005763688760806916,
+    "max_repeat": 1,
+    "unique_char": 0.5259259259259259
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 只输出译文本身,不要输出任何说明性文字,严格保持原文的行数"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "13→19"
+        },
+        {
+          "name": "placeholder",
+          "level": "fail",
+          "detail": "凭空出现: [1]"
+        }
+      ],
+      "chars": 492
+    },
+    {
+      "round": 2,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "3.7%"
+        }
+      ],
+      "chars": 294
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确通顺，无实质错误。",
+    "at": "2026-11-08 18:09:05",
+    "secs": 1.1
+  }
+}

@@ -100,6 +100,10 @@ def add_cfg_args(p: argparse.ArgumentParser) -> None:
     q.add_argument("--no-term-translate", action="store_true", help="跳过术语翻译")
     q.add_argument("--allow-partial", action="store_true",
                    help="有块失败也产出成品（默认 strict：不出成品）")
+    q.add_argument("--doc-memory", action="store_true",
+                   help="长文记忆（实验）：翻译前预扫原文生成文档简报+分场台账，逐块注入")
+    q.add_argument("--memory-scene", type=int, default=8,
+                   help="长文记忆：每多少块做一次分场台账（默认 8）")
     q.add_argument("--out-flat", action="store_true",
                    help="输出目录本身就是该书目录（不额外套一层文件名子目录）")
     q.add_argument("--lang", choices=["auto", "ja", "zh"], default=None)
@@ -172,6 +176,8 @@ def apply_args(cfg: Config, args: argparse.Namespace) -> Config:
     if getattr(args, "no_term_translate", False): cfg.translate_terms = False
     if getattr(args, "allow_partial", False): cfg.strict = False
     cfg.out_flat = bool(getattr(args, "out_flat", False))
+    cfg.doc_memory = bool(getattr(args, "doc_memory", False))
+    cfg.memory_scene = int(getattr(args, "memory_scene", 8) or 8)
     if getattr(args, "lang", None): cfg.lang = args.lang
     if getattr(args, "log_level", None): cfg.log_level = args.log_level
     if not cfg.prompt:
@@ -362,6 +368,18 @@ def cmd_merge(args: argparse.Namespace) -> int:
     return 0 if out else 1
 
 
+def cmd_consistency(args: argparse.Namespace) -> int:
+    """全书一致性体检（称呼/译名/语体），只报告不改文本。"""
+    from .consistency import run, summary
+
+    rep = run(Path(args.out_dir))
+    print(summary(rep))
+    if args.json:
+        write_json_atomic(Path(args.json), rep)
+        print(f"  报告 → {args.json}")
+    return 0 if not args.strict or not rep.get("issues") else 1
+
+
 def cmd_status(args: argparse.Namespace) -> int:
     root = Path(args.out_dir)
     rows = []
@@ -420,7 +438,7 @@ def cmd_polish(args: argparse.Namespace) -> int:
             print(f"!! {target} 下没有 合并_*.txt")
             return 2
         target_txt = merged[0]
-        cand = list(target.glob("*/terms.json"))
+        cand = list(target.glob("*/terms.json")) or list(target.glob("terms.json"))
         terms_path = cand[0] if cand else None
     else:
         target_txt = target
@@ -549,6 +567,12 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--show", type=int, default=40)
     p.add_argument("--raw", action="store_true", help="不清洗直接提取")
     p.set_defaults(func=cmd_terms)
+
+    p = sub.add_parser("consistency", help="全书一致性体检：称呼混用 / 形近译名 / 语体漂移")
+    p.add_argument("out_dir")
+    p.add_argument("--json", help="把完整报告写成 JSON")
+    p.add_argument("--strict", action="store_true", help="有可疑项时返回非零")
+    p.set_defaults(func=cmd_consistency)
 
     p = sub.add_parser("merge", help="合并一个输出目录里的所有译文")
     p.add_argument("out_dir")

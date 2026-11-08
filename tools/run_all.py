@@ -58,6 +58,9 @@ def main() -> int:
     ap.add_argument("-o", "--out", help="输出目录（默认：源文件所在目录下的 out/任务时间_文件名）")
     ap.add_argument("--workers", type=int, default=3)
     ap.add_argument("--chunk", type=int, default=400)
+    ap.add_argument("--doc-memory", action="store_true",
+                    help="长文记忆（实验）：翻译前预扫原文，生成文档简报+分场台账")
+    ap.add_argument("--memory-scene", type=int, default=8)
     ap.add_argument("--rounds", type=int, default=3, help="复核-重译最多几轮")
     ap.add_argument("--api-base", default="http://127.0.0.1:8090/v1")
     ap.add_argument("--model", default="sakura-galtransl-14b")
@@ -78,7 +81,9 @@ def main() -> int:
         ts = time.strftime("%Y%m%d_%H%M")
         out = src.parent / "out" / f"{ts}_{src.stem}"
 
-    common = ["--api-base", a.api_base, "--model", a.model,
+    mem_flags = (["--doc-memory", "--memory-scene", str(a.memory_scene)]
+                 if a.doc_memory else [])
+    common = [*mem_flags, "--api-base", a.api_base, "--model", a.model,
               "--director-base", a.director_base, "--director-model", a.director_model,
               "--director-no-think", "--clean-ai", "--chunk", str(a.chunk), "--workers", str(a.workers),
               "--style", "hash", "--system-in-user", "--temp", "0.1"]
@@ -116,6 +121,9 @@ def main() -> int:
     # ⑤ 收尾：称呼统一 + 特殊字符清理
     run(["polish", str(out), "--director-base", a.director_base,
          "--director-model", a.director_model, "--director-no-think"], "⑤ 收尾（称呼/字符）")
+
+    # ⑥ 全书一致性体检（只报告，不改文本）
+    run(["consistency", str(out)], "⑥ 一致性体检")
 
     merged = sorted(out.glob("合并_*_成品.txt")) or sorted(out.glob("合并_*.txt"))
     print("\n" + "=" * 66)

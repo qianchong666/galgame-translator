@@ -1,0 +1,60 @@
+{
+  "id": 55,
+  "status": "ok",
+  "text": "【#11#】「而且，你射了这么多，我也很高兴。好久没这样了，我都有点心跳加速了」\n优「……咦？」\n被这样对待会心跳加速？\n真的吗？\n【#11#】小姐？\n？\n【#11#】「好了，这样一来，我和小优之间就有了一个超级大的秘密呢」\n【#11#】「这个秘密比你偷看姐姐自慰还要下流得多，还要不得了得多……没错吧？」\n优「咦……啊，那个……这个…………」\n【#11#】「嘻嘻，小优真的好可爱。你会在这里住一段时间吧？我们下次再一起享受吧」\n优「…………咦？下次？？」\n我猛地抬起头，看到友香小姐挥着手的背影。\n【#11#】小姐就这样头也不回地慢慢走下了楼梯。\n她说下次，是说她还会像这样帮我自慰吗？",
+  "attempts": 2,
+  "elapsed": 9.75057601928711,
+  "checks": [],
+  "metrics": {
+    "lines_src": 14,
+    "lines_dst": 14,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 7,
+    "quote_dst": 7,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7771084337349398,
+    "similarity": 0.009036144578313253,
+    "max_repeat": 1,
+    "unique_char": 0.4108527131782946
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→16"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 376
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 294
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文意思，语感自然，无实质错误。",
+    "at": "2026-11-08 18:07:42",
+    "secs": 1.2
+  }
+}

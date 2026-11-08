@@ -1,0 +1,113 @@
+{
+  "id": 16,
+  "status": "failed",
+  "text": "【长文记忆·仅供保持一致，不要翻译】\n体裁：官能小说\n视点：第一人称（男主“优”）\n语体：です・ます調\n基调：淫靡、妄想、少年の視点\n人物：优（男主，学生）[优君]、礼子（友香御主人，贵史的母亲，人妻）[礼子小姐]、友香（礼子的丈夫，优香的丈夫）[御主人]、贵史（优的同学，礼子的儿子）[贵史]、九条礼子（优的同学，九条家的女儿）[礼子]、九条（优的同学，礼子的父亲）[九条]、女#26（DVD封面的人妻，被提及）[女#26]、九条礼子（优的同学，九条家的女儿）[礼子]\n本场人物：优，贵史，九条礼子，九条贵史\n称呼：['优称贵史为「贵史」或「贵史君」', '优称九条礼子为「礼子小姐」', '九条贵史称优为「优」'\n指代提醒：['「我」是优', '「礼子小姐」是九条礼子', '「女老师」是九条礼子', '「贵史」是九条贵史']\n语体：仍为です・ます調\n\n【#12#】「……………妈妈？什么事？」\n【#10#】「你有朋友来家里吧？我给你泡了茶，把门打开吧」\n【#12#】「知道了啦」\n【#12#】一脸无趣地说道，打开了门锁。\n【#10#】「——打扰了」\n哇啊……看到端着托盘走进来的那个人的瞬间，我真的吓了一跳。\n因为，我一直想象着的理想中的年长女性，仿佛原封不动地出现在了眼前。\n漂亮的栗色头发，用细笔轻轻勾勒出的嘴唇，充满成熟韵味的凤眼，当然身材也十分丰满。\n这样的人是贵史的妈妈？\n这么漂亮的人居然是妈妈？\n和我的妈妈完全不一样。\n就算说她是【#12#】的姐姐，我也会相信。\n但是，这个人已经结婚了，是人妻。\n这样啊，怎么说呢，感觉就像是人妻姐姐一样。\n【#10#】「欢迎。你是【#12#】的朋友吧」\n那个人看着我，微微一笑。",
+  "attempts": 4,
+  "elapsed": 61.8641037940979,
+  "checks": [
+    {
+      "name": "line_count",
+      "level": "fail",
+      "detail": "16→26"
+    },
+    {
+      "name": "quote_anchor",
+      "level": "warn",
+      "detail": "5→13"
+    }
+  ],
+  "metrics": {
+    "lines_src": 16,
+    "lines_dst": 26,
+    "line_diff": 0.625,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 13,
+    "kana_ratio": 0.013452914798206279,
+    "length_ratio": 1.9005681818181819,
+    "similarity": 0.002840909090909091,
+    "max_repeat": 1,
+    "unique_char": 0.34080717488789236
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "16→26"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "5→13"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.2%"
+        }
+      ],
+      "chars": 716
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "16→26"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "5→13"
+        }
+      ],
+      "chars": 721
+    },
+    {
+      "round": 3,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "16→26"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "5→13"
+        }
+      ],
+      "chars": 717
+    },
+    {
+      "round": "line",
+      "status": "failed",
+      "checks": [
+        {
+          "name": "ph_malformed",
+          "level": "fail",
+          "detail": "占位符畸形: 【%142;】 【%142;】"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10, 12]"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "5→16"
+        }
+      ]
+    }
+  ],
+  "detail": "failed | line_count:fail(16→26); quote_anchor:warn(5→13)"
+}

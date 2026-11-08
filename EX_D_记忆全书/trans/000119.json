@@ -1,0 +1,50 @@
+{
+  "id": 119,
+  "status": "degraded",
+  "text": "【#10#】的声音引导着我，我开始在小穴的深处用力抽插。\n【#10#】「对，就是那里！！啊，碰到了，嗯，碰到了子宫，啊，好棒，好棒啊！！」\n随着我的肉棒的抽插，【#10#】的那里反复向外翻起，又反复陷进里面。\n【#10#】「啊啊嗯，啊，啊啊！！小穴好舒服……啊嗯，【#12#】好棒！！啊，好棒，这样好棒！！」\n【#10#】「啊，啊啊嗯，明明是【#12#】的朋友……啊啊，明明和儿子同龄……却这么……这么舒服……啊啊啊啊」\n【#10#】「啊啊，我……快要不行了，快要变成一个坏妈妈了……嗯，嗯嗯」\n没错。\n我正在和贵史的妈妈做爱。\n我的肉棒正在【#12#】出生的小穴里进进出出。",
+  "attempts": 1,
+  "elapsed": 6.855723142623901,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [10, 12]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 9,
+    "lines_dst": 9,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 4,
+    "quote_dst": 4,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7069486404833837,
+    "similarity": 0.0030211480362537764,
+    "max_repeat": 1,
+    "unique_char": 0.3547008547008547
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10, 12]"
+        }
+      ],
+      "chars": 288
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 18:08:10",
+    "secs": 1.2
+  }
+}

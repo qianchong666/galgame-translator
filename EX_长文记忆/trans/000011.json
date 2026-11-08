@@ -1,0 +1,123 @@
+{
+  "id": 11,
+  "status": "failed",
+  "text": "【长文记忆·仅供保持一致，不要翻译】\n体裁：官能小说\n视点：第一人称（男主“优”）\n语体：です・ます調\n基调：淫靡、妄想、少年の視点\n人物：优（男主，学生）[优君]、礼子（友香御主人，贵史的母亲，人妻）[礼子さん]、友香（礼子的丈夫，优香的丈夫）[御主人]、贵史（优的同学，礼子的儿子）[贵史]、九条礼子（优的同学，九条家的女儿）[礼子]、九条（优的同学，礼子的父亲）[九条]、女#26（DVD封面的人妻，被提及）[女#26]、九条礼子（优的同学，九条家的女儿）[礼子]\n本场人物：优，贵史，九条礼子，九条贵史\n称呼：['优称贵史为「贵史」或「贵史君」', '优称九条礼子为「礼子さん」', '九条贵史称优为「优」'\n指代提醒：['「我」是优', '「礼子さん」是九条礼子', '「女老师」是九条礼子', '「贵史」是九条贵史']\n语体：仍为です・ます調\n\n我依旧紧握着即将射精的肉棒。\n而站在我身旁的人是——\n？\n？\n「呵呵，你在做什么呢？」\n——【#11#】小姐。\n她是【#10#】小姐的妹妹，也是住在这个家里的另一位人妻姐姐。\n女【#26#】「啊嗯，好厉害，啊啊，肉棒好厉害，啊，不行，已经不行了！！」\n女【#26#】「啊啊，不行，嗯，要去了，要去了，我，要去了啊啊啊啊～～～！！」\n女【#26#】「啊啊，去了，去了，去了啊啊啊啊啊啊！！」\n女【#26#】「去了啊啊啊啊啊嗯嗯嗯嗯嗯！！」\n【#8#】老师发出高亢的高潮声，身体向后仰去。\n精液朝着她那扭曲的脸庞倾泻而下。\n不过，那个是——【#12#】「啊～～～～那是假的吧」",
+  "attempts": 4,
+  "elapsed": 86.79389905929565,
+  "checks": [
+    {
+      "name": "line_count",
+      "level": "fail",
+      "detail": "14→24"
+    },
+    {
+      "name": "quote_anchor",
+      "level": "warn",
+      "detail": "6→14"
+    },
+    {
+      "name": "kana_residue",
+      "level": "warn",
+      "detail": "2.4%"
+    }
+  ],
+  "metrics": {
+    "lines_src": 14,
+    "lines_dst": 24,
+    "line_diff": 0.7142857142857143,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 14,
+    "kana_ratio": 0.024271844660194174,
+    "length_ratio": 1.9807692307692308,
+    "similarity": 0.009615384615384616,
+    "max_repeat": 2,
+    "unique_char": 0.2912621359223301
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→24"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "6→14"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.4%"
+        }
+      ],
+      "chars": 667
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→24"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "6→14"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.4%"
+        }
+      ],
+      "chars": 665
+    },
+    {
+      "round": 3,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→24"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "6→14"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.4%"
+        }
+      ],
+      "chars": 665
+    },
+    {
+      "round": "line",
+      "status": "failed",
+      "checks": [
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "6→11"
+        },
+        {
+          "name": "repetition",
+          "level": "fail",
+          "detail": "字符重复率异常 0.06"
+        }
+      ]
+    }
+  ],
+  "detail": "failed | line_count:fail(14→24); quote_anchor:warn(6→14); kana_residue:warn(2.4%)"
+}

@@ -1,0 +1,92 @@
+{
+  "id": 45,
+  "status": "ok",
+  "text": "【#11#】同学出乎意料的举动，以及她那柔软的手的触感，让我的腰都颤抖了起来。\n【#11#】「从刚才开始就一直这么大。你很想射出来吧，优君」\n【#11#】「作为妨碍你射精的赔礼，就让我来让你舒服吧」\n优「咦……？等，怎么这样……」\n【#11#】「因为，它这么大，这么厉害嘛。我的身体也变得好热」\n说完，【#11#】同学就将睡裙的肩带拉了下来，把胸部露给我看。\n优「…………啊，啊啊」\n【#11#】「怎么样？我的胸部。虽然没有姐姐那么大，但也很棒吧？」\n优「…………咕噜」\n【#10#】同学的因为太暗看不清楚，但【#11#】同学的又大，又丰满……好厉害。\n【#11#】「虽然长得这么可爱，但果然还是个男人呢。眼睛都闪闪发光了。真下流」\n优「咦……？啊，我……我……」",
+  "attempts": 3,
+  "elapsed": 51.418697118759155,
+  "checks": [],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 9,
+    "quote_dst": 9,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.8081395348837209,
+    "similarity": 0.0,
+    "max_repeat": 1,
+    "unique_char": 0.4568345323741007
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 416
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→131"
+        },
+        {
+          "name": "placeholder",
+          "level": "fail",
+          "detail": "缺失1: [10]"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "9→130"
+        },
+        {
+          "name": "length_ratio",
+          "level": "warn",
+          "detail": "2.27"
+        },
+        {
+          "name": "repetition",
+          "level": "warn",
+          "detail": "连续重复128行"
+        }
+      ],
+      "chars": 1562
+    },
+    {
+      "round": 3,
+      "status": "ok",
+      "checks": [],
+      "chars": 332
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 18:07:38",
+    "secs": 1.2
+  }
+}

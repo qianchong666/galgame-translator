@@ -1,0 +1,60 @@
+{
+  "id": 128,
+  "status": "ok",
+  "text": "于是，【#12#】生气地离开了。\n【#10#】「真是的，不管过了多久都还是个小孩子……唉」\n礼子小姐叹了口气。\n【#11#】「啊～～～啊，小优，你把【#12#】惹生气了呢」\n优「咦？不是的。都是因为【#11#】小姐你一直对【#12#】说些奇怪的话吧！？」\n【#11#】「咦？是我的错？小优，你是在生我的气吗！？」\n【#11#】「啊嗯，被温柔的小优骂了～～～嗯，怎么办～～～～～」\n优「不，我并没有生气……」\n【#11#】「那我被讨厌了吗？」\n优「都说了不是那样……」\n【#11#】「啊哈，那小优是喜欢我的咯。啊～～～～～嗯，小优，我也最喜欢你了～～！好想亲亲哦！！」\n优「等一下，友香小姐！！」\n【#11#】「啊嗯，真可惜……被你逃掉了」",
+  "attempts": 2,
+  "elapsed": 12.594091415405273,
+  "checks": [],
+  "metrics": {
+    "lines_src": 13,
+    "lines_dst": 13,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 11,
+    "quote_dst": 11,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7808641975308642,
+    "similarity": 0.0030864197530864196,
+    "max_repeat": 1,
+    "unique_char": 0.3557312252964427
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "13→15"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [12]"
+        }
+      ],
+      "chars": 403
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 319
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，情感与对话语气还原到位，无实质错误。",
+    "at": "2026-11-08 18:08:13",
+    "secs": 1.2
+  }
+}

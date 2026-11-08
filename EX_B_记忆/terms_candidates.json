@@ -1,0 +1,90 @@
+[
+  {
+    "term": "礼子",
+    "type": "人名",
+    "conf": "high",
+    "count": 78,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "友香",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "真理乃",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "貴史",
+    "type": "人名",
+    "conf": "medium",
+    "count": 20,
+    "origin": "speaker_quote",
+    "masked": true
+  },
+  {
+    "term": "イヤ",
+    "type": "专名",
+    "conf": "low",
+    "count": 12,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "イク",
+    "type": "专名",
+    "conf": "low",
+    "count": 7,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "パンティ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "アソコ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ヌチュッ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "デカチンコ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "テクニック",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  }
+]

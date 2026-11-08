@@ -1,0 +1,49 @@
+{
+  "id": 173,
+  "status": "ok",
+  "text": "【#10#】「果然呢。\n那这件也处理掉吧」\n【#10#】同学轻轻把衣服叠好，放到其他要处理的衣服堆上。\n【#10#】「这件呢？这件应该还能穿吧？」\n这次是一件黑色的，感觉比较休闲的衣服。\n优「嗯，应该没问题吧？感觉可以披在外面」\n【#10#】「嗯，是啊。那这件就再穿一阵子吧」\n说完，她把衣服放回了原位。\n【#10#】「嗯————差不多整理好了，就这样吧」\n优「啊……结束了吗？」\n【#10#】「嗯，结束了。谢谢你帮忙，小优」\n【#10#】「我本来以为会花更多时间，有你在真是帮大忙了」\n优「…………啊，是吗」\n我虽然点了点头，但还是不太明白她是怎么帮到我的。\n我刚才只是问了问她的意见而已。",
+  "attempts": 1,
+  "elapsed": 6.342341661453247,
+  "checks": [],
+  "metrics": {
+    "lines_src": 15,
+    "lines_dst": 15,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 9,
+    "quote_dst": 9,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.711484593837535,
+    "similarity": 0.0028011204481792717,
+    "max_repeat": 1,
+    "unique_char": 0.452755905511811
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "15→14"
+        }
+      ],
+      "chars": 295
+    },
+    {
+      "round": "line_repair",
+      "status": "ok",
+      "checks": []
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "整体流畅，语义准确，无实质错误。",
+    "at": "2026-11-08 18:08:35",
+    "secs": 1.0
+  }
+}

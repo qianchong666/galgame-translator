@@ -1,0 +1,67 @@
+{
+  "id": 41,
+  "status": "degraded",
+  "text": "【#11#】「你过来一下」\n【#11#】小姐把我拉到了走廊的角落。我既没有放开她的手，也没有把鸡鸡收起来，只是低着头。\n【#11#】「那么……你有什么想说的吗？」\n优「…………对、对不起」\n【#11#】「呵呵，不是这个吧？」\n优「咦……？」\n【#11#】「小优，你为什么要做那种事？」\n优「那……那是因为…………」\n问我为什么……那当然是因为，我听到门后传来礼子小姐的声音，心跳加速……鸡鸡就变大了……【#11#】「嘻嘻……你很中意我姐姐吗？」\n优「咦……？」\n【#11#】「也是呢，毕竟你半夜偷偷起床，还做了这种事嘛」\n优「不、不是的……我，那个……这只是，碰、碰巧……」",
+  "attempts": 2,
+  "elapsed": 10.16093397140503,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [11]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 11,
+    "quote_dst": 11,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7753164556962026,
+    "similarity": 0.0189873417721519,
+    "max_repeat": 1,
+    "unique_char": 0.3836734693877551
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        }
+      ],
+      "chars": 369
+    },
+    {
+      "round": 2,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 287
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误，符合原文语境与语气。",
+    "at": "2026-11-08 18:07:37",
+    "secs": 1.2
+  }
+}

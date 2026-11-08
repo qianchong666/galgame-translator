@@ -62,6 +62,7 @@ python tools/run_all.py --src "你的书.txt" --workers 3 --chunk 400
 | `gt.py review` | 批量复核（行数确定性预检 + 模型判语义） |
 | `gt.py merge` | 汇总多个文件 |
 | `gt.py polish` | 收尾：称呼统一 + 特殊字符清理 |
+| `gt.py consistency` | 全书一致性体检（称呼 / 形近译名 / 语体漂移） |
 | `gt.py status` | 查看块级进度 |
 | `gt.py selftest` | 148 项自检（不需要 GPU） |
 | `gt.py golden` / `score` | 黄金集取样与质量评分（改模型前后对比用） |
@@ -79,6 +80,12 @@ docs/              开发记录与设计取舍
 安装与使用手册.md    装环境 + 日常用法
 方案说明.md         设计口径与原理
 ```
+
+## 长文一致性（实验）
+
+长篇文本的块级翻译容易跨块漂移（指代、语体、称呼）。加上 `--doc-memory` 会先按原文顺序预扫一遍，
+生成「文档简报 + 分场台账」，逐块注入 2~3 行背景；翻完可用 `gt.py consistency` 体检全书一致性。
+默认关闭，不影响既有流程。
 
 ## 环境
 

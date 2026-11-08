@@ -1,0 +1,78 @@
+{
+  "id": 7,
+  "status": "degraded",
+  "text": "礼子「嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯，嗯……嗯\n【#10#】「啊啊……亲爱的……嗯，我又，又……在自慰了……嗯嗯」\n【#10#】「我，我……嗯呼，嗯，像这样……在你身边……嗯，一个人自慰……嗯嗯……老公……啊嗯」\n%143;「啊，是的。我叫【#10#】。」\n【#10#】「嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯\n【#10#】「呼，呼……嗯，嗯嗯，我，我可能会……出轨的……哈啊，嗯，嗯，啊嗯……」\n【#10#】「啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\n张三「嗯，嗯……」",
+  "attempts": 4,
+  "elapsed": 46.09500193595886,
+  "checks": [
+    {
+      "name": "quote_anchor",
+      "level": "warn",
+      "detail": "3→8"
+    }
+  ],
+  "metrics": {
+    "lines_src": 8,
+    "lines_dst": 8,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 3,
+    "quote_dst": 8,
+    "kana_ratio": 0.0,
+    "length_ratio": 1.25,
+    "similarity": 0.020114942528735632,
+    "max_repeat": 1,
+    "unique_char": 0.10574712643678161
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "8→18"
+        }
+      ],
+      "chars": 596
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "8→18"
+        }
+      ],
+      "chars": 592
+    },
+    {
+      "round": 3,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "8→18"
+        }
+      ],
+      "chars": 599
+    },
+    {
+      "round": "line",
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "3→8"
+        }
+      ]
+    }
+  ],
+  "detail": "line-mode-retry"
+}

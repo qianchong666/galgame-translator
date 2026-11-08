@@ -1,0 +1,60 @@
+{
+  "id": 51,
+  "status": "ok",
+  "text": "【#11#】「嗯嗯，嗯啾，嗯咕啾咕啾噗……嗯滋溜～～～～～～～～」\n优「…………呀哇」\n【#11#】小姐在嘴里把唾液搅得咕啾咕啾的，然后滴到了我的肉棒上。\n我的预射液和友香小姐的唾液缠绕在肉棒上，发出下流的光芒。\n【#11#】「呵呵……你会越来越舒服的哦。下流的小优」\n沾满唾液的手上下移动，我的肉棒开始发出“噗啾噜，噗啾噜”的响亮声音。\n【#11#】「嗯嗯嗯……嗯，呵呵……嗯，嗯嗯嗯嗯～～～～～」\n优 「唔啊……啊，嗯嗯……唔唔」\n【#11#】小姐的动作很下流，湿滑的感觉好舒服，肉棒一跳一跳地颤抖着。\n【#11#】「呵呵……怎么了？小优。已经忍不住了吗？」\n优「是，是的……啊，啊啊……我，不行了……」",
+  "attempts": 2,
+  "elapsed": 12.745143175125122,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 7,
+    "quote_dst": 7,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7635327635327636,
+    "similarity": 0.014245014245014245,
+    "max_repeat": 1,
+    "unique_char": 0.3656716417910448
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 388
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 304
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文的色情场景与拟声词，语序和用词自然，无实质错误。",
+    "at": "2026-11-08 18:07:41",
+    "secs": 1.6
+  }
+}

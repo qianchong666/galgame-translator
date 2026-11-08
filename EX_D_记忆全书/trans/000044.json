@@ -1,0 +1,60 @@
+{
+  "id": 44,
+  "status": "ok",
+  "text": "【#11#】「呵呵……我觉得你跟我说这个也没用啊……」\n优「……………啊」\n【#11#】「但是，你能跟姐姐说吗？说你偷看了我自慰，还自慰了。对不起」\n优「………………那个……我……」\n【#11#】「是啊。那种事，你根本做不到吧」\n优「…………」\n【#11#】「那你打算怎么办？」\n怎么办……这。\n被【#11#】发现了，又不能跟【#10#】说。\n【#11#】「啊……说起来，小优还有个更～～紧迫的问题呢。那个你打算怎么办？」\n优「咦……？那个是指？」\n【#11#】「就是这个啦」\n【#11#】小姐当场坐下，突然握住我的小鸡鸡。\n优「呼啊啊……【#11#】小……姐……嗯嗯」",
+  "attempts": 2,
+  "elapsed": 11.051587581634521,
+  "checks": [],
+  "metrics": {
+    "lines_src": 14,
+    "lines_dst": 14,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 11,
+    "quote_dst": 11,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7009345794392523,
+    "similarity": 0.040498442367601244,
+    "max_repeat": 1,
+    "unique_char": 0.3466666666666667
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→16"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 378
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 285
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 18:07:38",
+    "secs": 1.2
+  }
+}

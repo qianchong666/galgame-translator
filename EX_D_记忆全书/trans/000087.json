@@ -1,0 +1,60 @@
+{
+  "id": 87,
+  "status": "ok",
+  "text": "【#10#】「嘻嘻。什～～么嘛，真遗憾啊。那阿优，我在女装卖场等你哦」\n优「【#10#】，你绝对是觉得捉弄我很有趣吧……」\n我买好了新的内裤和衬衫，走向【#10#】所在的女装卖场。\n正如刚才礼子小姐所说，已经开始举办秋装展销会了。\n当然，卖场里挤满了女性顾客，【#10#】也双手拿着挂着衣服的衣架。\n【#10#】「这件？嗯——还是这件呢？」\n她一边自言自语，一边反复比较着衣服。\n总觉得有点难以开口。\n优「那个，【#10#】……」\n【#10#】「啊……阿优，你买好了吗？」\n优「是的。姑且买了几件衬衫和内裤」\n【#10#】「这样啊。待会儿再给你钱。那么……阿优，你觉得这件和这件，哪件更好？」\n优「咦……？哪件更好……？」",
+  "attempts": 2,
+  "elapsed": 11.798030853271484,
+  "checks": [],
+  "metrics": {
+    "lines_src": 13,
+    "lines_dst": 13,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 8,
+    "quote_dst": 8,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7804154302670623,
+    "similarity": 0.002967359050445104,
+    "max_repeat": 1,
+    "unique_char": 0.467680608365019
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "13→15"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 392
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 311
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误。",
+    "at": "2026-11-08 18:07:56",
+    "secs": 1.1
+  }
+}

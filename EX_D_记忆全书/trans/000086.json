@@ -1,0 +1,50 @@
+{
+  "id": 86,
+  "status": "degraded",
+  "text": "【#10#】「不要……小优，你真的穿兜裆布吗？哎，跟我的印象完全不一样啊。兜裆布……呜哇……好厉害……」\n啊……不好。\n【#10#】当真了。\n优「啊，不是……那个……我是说……祭典的时候会穿」\n【#10#】「哎？你——？」\n【#10#】「真是的，又说这种奇怪的话。没想到小优你这么喜欢开玩笑呢」\n优「怎么会……还不是因为【#10#】你问我内裤的喜好……」\n【#10#】「呵呵，好啊。那我们现在就去买吧。买一条最适合小优的兜裆布」\n说着，【#10#】紧紧地握住了我的手臂。\n优「哎？不，不用了。我自己去买就行了！！」\n再怎么说这也太羞耻了。\n我甩开【#10#】的手，跑了起来。",
+  "attempts": 1,
+  "elapsed": 6.347862958908081,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [10]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 7,
+    "quote_dst": 7,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7587301587301587,
+    "similarity": 0.01904761904761905,
+    "max_repeat": 1,
+    "unique_char": 0.42677824267782427
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 287
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误，符合原文语境与语气。",
+    "at": "2026-11-08 18:07:56",
+    "secs": 1.2
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 17,
+  "status": "degraded",
+  "text": "【#2#】「贵史平时说的那个人就是你吧。真不好意思啊。【#4#】他一点都不机灵。来，给你」\n说着，她把香气四溢的红茶和装满水果的蛋糕递给了我。\n哇，看上去好好吃。\n优「谢……谢谢您」\n【#4#】「妈，东西放好就赶紧出去吧」\n【#2#】「你这什么口气啊。人家好不容易给你买了万象（まんぞう）的水果蛋糕呢」",
+  "attempts": 1,
+  "elapsed": 4.730511426925659,
+  "checks": [
+    {
+      "name": "kana_residue",
+      "level": "warn",
+      "detail": "3.1%"
+    }
+  ],
+  "metrics": {
+    "lines_src": 6,
+    "lines_dst": 6,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 4,
+    "quote_dst": 4,
+    "kana_ratio": 0.030534351145038167,
+    "length_ratio": 0.7401129943502824,
+    "similarity": 0.011299435028248588,
+    "max_repeat": 1
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "3.1%"
+        }
+      ],
+      "chars": 151
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误。",
+    "at": "2026-11-08 17:49:09",
+    "secs": 0.5
+  }
+}

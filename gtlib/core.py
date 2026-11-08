@@ -285,6 +285,9 @@ DEFAULT_THRESHOLDS: Dict[str, Any] = {
 class Config:
     """一次翻译任务的全部可调参数（可存成 job.json 复跑）。"""
 
+    doc_memory: bool = False          # 长文记忆（实验）：翻译前预扫原文，生成文档简报+分场台账
+    memory_scene: int = 8             # 每多少块做一次分场台账
+
     out_flat: bool = False            # 输出去扁平化？False=out/文件名/ ，True=out 目录本身即该书目录
 
     # --- 服务 ---

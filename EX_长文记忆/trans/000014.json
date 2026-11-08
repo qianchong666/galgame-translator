@@ -1,0 +1,148 @@
+{
+  "id": 14,
+  "status": "failed",
+  "text": "4. 形如 【#12#】 的标记是系统占位符，代表已定名的人名/地名/术语，必须原样保留，不得翻译、改写、增删或移动位置。\n5. 不要输出任何说明性文字。\n\n【长文记忆·仅供保持一致，不要翻译】\n体裁：官能小说\n视点：第一人称（男主“优”）\n语体：です・ます調\n基调：淫靡、妄想、少年の視点\n人物：优（男主，学生）[优君]、礼子（友香御主人，贵史的母亲，人妻）[礼子さん]、友香（礼子的丈夫，优香的丈夫）[御主人]、贵史（优的同学，礼子的儿子）[贵史]、九条礼子（优的同学，九条家的女儿）[礼子]、九条（优的同学，礼子的父亲）[九条]、女#26（DVD封面的人妻，被提及）[女#26]、九条礼子（优的同学，九条家的女儿）[礼子]\n本场人物：优，贵史，九条礼子，九条贵史\n称呼：['优称贵史为「贵史」或「贵史君」', '优称九条礼子为「礼子さん」', '九条贵史称优为「优」'\n指代提醒：['「我」是优', '「礼子さん」是九条礼子', '「女老师」是九条礼子', '「贵史」是九条贵史']\n语体：仍为です・ます調\n\n【#12#】「所以，她要这样弯下自己的身体，给自己口交啊」\n优「哇……」\n【#12#】「她说如果鸡巴不大，嘴巴够不着就没办法了。啊……那优的巨根应该可以吧」\n优「哎———那种事就算了吧」\n想象了一下自己含着自己那根东西的样子，我原本勃起的鸡巴一下子蔫了下去。\n【#12#】「……也是啊。那怎么办？要借这个走吗？」\n优「嗯～～～～难得有这个机会，还是算了。pass」\n【#12#】「是吗。优应该不太喜欢这种温柔系的吧」\n优「嗯。硬要说的话，我更喜欢那种身材紧致的人吧」\n【#12#】「我还是喜欢这种的。虽然脸看起来有点娃娃脸，但身材凹凸有致」\n【#12#】「第一次肯定要找这种人啊。然后，用我的鸡巴让她娇喘连连」",
+  "attempts": 4,
+  "elapsed": 57.58977437019348,
+  "checks": [
+    {
+      "name": "prompt_echo",
+      "level": "fail",
+      "detail": "命中特征: 不要输出任何说明性文字"
+    },
+    {
+      "name": "line_count",
+      "level": "fail",
+      "detail": "11→23"
+    },
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [12]"
+    },
+    {
+      "name": "quote_anchor",
+      "level": "warn",
+      "detail": "10→18"
+    },
+    {
+      "name": "kana_residue",
+      "level": "warn",
+      "detail": "2.1%"
+    }
+  ],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 23,
+    "line_diff": 1.0909090909090908,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 10,
+    "quote_dst": 18,
+    "kana_ratio": 0.020804438280166437,
+    "length_ratio": 2.0482954545454546,
+    "similarity": 0.0,
+    "max_repeat": 1,
+    "unique_char": 0.33703190013869627
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→21"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "10→18"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.2%"
+        }
+      ],
+      "chars": 711
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→21"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [12]"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "10→18"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.3%"
+        }
+      ],
+      "chars": 689
+    },
+    {
+      "round": 3,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→23"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [12]"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "10→18"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.1%"
+        }
+      ],
+      "chars": 763
+    },
+    {
+      "round": "line",
+      "status": "failed",
+      "checks": [
+        {
+          "name": "ph_malformed",
+          "level": "fail",
+          "detail": "占位符畸形: 【%142;【#12#】 【%102;优】 【%102;#12#】"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [12]"
+        }
+      ]
+    }
+  ],
+  "detail": "failed | prompt_echo:fail(命中特征: 不要输出任何说明性文字); line_count:fail(11→23); placeholder:warn(次数不符: [12]); quote_anchor:warn(10→18); kana_residue:warn(2.1%)"
+}

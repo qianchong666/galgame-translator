@@ -1,0 +1,123 @@
+{
+  "id": 10,
+  "status": "failed",
+  "text": "【长文记忆·仅供保持一致，不要翻译】\n体裁：官能小说\n视点：第一人称（男主“优”）\n语体：です・ます調\n基调：淫靡、妄想、少年の視点\n人物：优（男主，学生）[优君]、礼子（友香御主人，贵史的母亲，人妻）[礼子さん]、友香（礼子的丈夫，优香的丈夫）[御主人]、贵史（优的同学，礼子的儿子）[贵史]、九条礼子（优的同学，九条家的女儿）[礼子]、九条（优的同学，礼子的父亲）[九条]、女#26（DVD封面的人妻，被提及）[女#26]、九条礼子（优的同学，九条家的女儿）[礼子]\n本场人物：优，贵史，九条礼子，九条贵史\n称呼：['优称贵史为「贵史」或「贵史君」', '优称九条礼子为「礼子さん」', '九条贵史称优为「优」'\n指代提醒：['「我」是优', '「礼子さん」是九条礼子', '「女老师」是九条礼子', '「贵史」是九条贵史']\n语体：仍为です・ます調\n\n【#10#】「呼啊啊……啊……嗯啊……啊……啊……」\n然后，【#10#】小姐就这样侧卧在床上，不停地喘着粗气。\n刚才还在胯下激烈地活动着的手也已经一动不动了。\n【#10#】「啊……啊……啊…………又，高潮了……啊，啊嗯……唔呼……」\n好厉害。\n这就是高潮啊。\n原来女人真的高潮了之后会变成这样啊。\n优「啊，啊，啊啊，啊，啊，啊，啊！！」\n我也已经忍不住了。\n好想射出来。\n好想在如此淫荡又美丽的礼子小姐身边尽情地射精。\n优「【#10#】小姐……啊，啊，【#10#】小姐……啊，啊，啊」\n啊啊，要射了。\n要射了。\n【#10#】小姐！\n！\n？\n？\n「你在这里做什么呢？小优？」\n优「！！！！！！！！！」\n我的心脏都快停止跳动了。",
+  "attempts": 4,
+  "elapsed": 63.2762017250061,
+  "checks": [
+    {
+      "name": "line_count",
+      "level": "fail",
+      "detail": "21→31"
+    },
+    {
+      "name": "quote_anchor",
+      "level": "warn",
+      "detail": "6→14"
+    },
+    {
+      "name": "kana_residue",
+      "level": "warn",
+      "detail": "2.3%"
+    }
+  ],
+  "metrics": {
+    "lines_src": 21,
+    "lines_dst": 31,
+    "line_diff": 0.47619047619047616,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 14,
+    "kana_ratio": 0.022900763358778626,
+    "length_ratio": 1.834733893557423,
+    "similarity": 0.0,
+    "max_repeat": 2,
+    "unique_char": 0.2870229007633588
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "21→31"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "6→14"
+        }
+      ],
+      "chars": 694
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "21→31"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "6→14"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.3%"
+        }
+      ],
+      "chars": 691
+    },
+    {
+      "round": 3,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "21→31"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "6→14"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.3%"
+        }
+      ],
+      "chars": 691
+    },
+    {
+      "round": "line",
+      "status": "failed",
+      "checks": [
+        {
+          "name": "ph_malformed",
+          "level": "fail",
+          "detail": "占位符畸形: 【%102;】"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "引号未闭合"
+        }
+      ]
+    }
+  ],
+  "detail": "failed | line_count:fail(21→31); quote_anchor:warn(6→14); kana_residue:warn(2.3%)"
+}

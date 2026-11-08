@@ -1,0 +1,690 @@
+[
+  {
+    "term": "礼子",
+    "type": "人名",
+    "conf": "high",
+    "count": 1306,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "友香",
+    "type": "人名",
+    "conf": "high",
+    "count": 1020,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "貴史",
+    "type": "人名",
+    "conf": "high",
+    "count": 121,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "鳴沢",
+    "type": "人名",
+    "conf": "high",
+    "count": 18,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "クリ",
+    "type": "人名",
+    "conf": "high",
+    "count": 12,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "義兄",
+    "type": "人名",
+    "conf": "high",
+    "count": 4,
+    "origin": "honorific",
+    "masked": false
+  },
+  {
+    "term": "御主人",
+    "type": "人名",
+    "conf": "high",
+    "count": 4,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "モデル",
+    "type": "人名",
+    "conf": "high",
+    "count": 2,
+    "origin": "honorific",
+    "masked": false
+  },
+  {
+    "term": "真理乃",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "九条礼子",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "部長",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": false
+  },
+  {
+    "term": "親御",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": false
+  },
+  {
+    "term": "変態",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": false
+  },
+  {
+    "term": "司書",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": false
+  },
+  {
+    "term": "アンズ飴屋",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "全部姉",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": false
+  },
+  {
+    "term": "人形",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "朝寝",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": false
+  },
+  {
+    "term": "亀頭",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "精巣",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "女王",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": false
+  },
+  {
+    "term": "今私",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": false
+  },
+  {
+    "term": "友香御主人",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "早速友香",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "時折友香",
+    "type": "人名",
+    "conf": "high",
+    "count": 1,
+    "origin": "honorific",
+    "masked": true
+  },
+  {
+    "term": "教師",
+    "type": "人名",
+    "conf": "medium",
+    "count": 4,
+    "origin": "speaker_quote",
+    "masked": true
+  },
+  {
+    "term": "オマンコ",
+    "type": "专名",
+    "conf": "low",
+    "count": 51,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "イヤ",
+    "type": "专名",
+    "conf": "low",
+    "count": 44,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "イク",
+    "type": "专名",
+    "conf": "low",
+    "count": 29,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ダメ",
+    "type": "专名",
+    "conf": "low",
+    "count": 25,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "イッ",
+    "type": "专名",
+    "conf": "low",
+    "count": 24,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "イイ",
+    "type": "专名",
+    "conf": "low",
+    "count": 20,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "イキ",
+    "type": "专名",
+    "conf": "low",
+    "count": 15,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "スゴイ",
+    "type": "专名",
+    "conf": "low",
+    "count": 13,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ディルド",
+    "type": "专名",
+    "conf": "low",
+    "count": 11,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "アソコ",
+    "type": "专名",
+    "conf": "low",
+    "count": 10,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "アン",
+    "type": "专名",
+    "conf": "low",
+    "count": 7,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "アヌス",
+    "type": "专名",
+    "conf": "low",
+    "count": 7,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "イクッ",
+    "type": "专名",
+    "conf": "low",
+    "count": 6,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "オバサン",
+    "type": "专名",
+    "conf": "low",
+    "count": 6,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "テクニック",
+    "type": "专名",
+    "conf": "low",
+    "count": 5,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ビックリ",
+    "type": "专名",
+    "conf": "low",
+    "count": 5,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "イケナイ",
+    "type": "专名",
+    "conf": "low",
+    "count": 5,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "オシッコ",
+    "type": "专名",
+    "conf": "low",
+    "count": 5,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "フンドシ",
+    "type": "专名",
+    "conf": "low",
+    "count": 5,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "トッピング",
+    "type": "专名",
+    "conf": "low",
+    "count": 5,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "パンティ",
+    "type": "专名",
+    "conf": "low",
+    "count": 4,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ピーマン",
+    "type": "专名",
+    "conf": "low",
+    "count": 4,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "フェア",
+    "type": "专名",
+    "conf": "low",
+    "count": 4,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ピンク",
+    "type": "专名",
+    "conf": "low",
+    "count": 4,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "タンス",
+    "type": "专名",
+    "conf": "low",
+    "count": 4,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "アンズ",
+    "type": "专名",
+    "conf": "low",
+    "count": 4,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ペット",
+    "type": "专名",
+    "conf": "low",
+    "count": 4,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "オンナ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ヌチュッ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "グラマ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "セクシ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ビクン",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "チラッ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ゴメン",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "イジワル",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "カップル",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ブリーフ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ヂュル",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ヂュプ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "セーキ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ヴァギナ",
+    "type": "专名",
+    "conf": "low",
+    "count": 3,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "パジャマ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ガッカリ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "デカチンコ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "フルーツケーキ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ニンジン",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "キャベツ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "イメージ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ネグリジェ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "デパート",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "トランクス",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "オレンジ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ヂュルチュル",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ジュルッ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "チュプッ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ホットパンツ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ショーツ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "バツグン",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "フェラテク",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  },
+  {
+    "term": "ザーメンセーキ",
+    "type": "专名",
+    "conf": "low",
+    "count": 2,
+    "origin": "katakana",
+    "masked": false
+  }
+]
