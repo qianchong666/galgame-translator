@@ -1,0 +1,50 @@
+{
+  "id": 110,
+  "status": "degraded",
+  "text": "优「不，不是的。【#10#】，你快要高潮了吧？对吧？我想让你高潮。想让你舒服起来」\n【#10#】「嗯呼唔……嗯，真是嚣张呢……小优。不过，与其问这种问题……啊，啊嗯，还不如……刺激我最敏感的地方嘛」\n【#10#】「哈啊，哈啊，你应该知道的吧……嗯，小优，你不是……很懂女人的心思嘛……你不是……一直在舔来舔去嘛……啊，啊啊」\n【#10#】最敏感的地方 。\n是这里吗？\n这个一跳一跳的阴蒂。\n【#10#】「呀唔唔唔唔！！」\n优「嗯噗，嗯……咧咯咧咯咧咯！！」\n我将嘴巴微微缩紧，将那朵肉蕾含入口中，一边啾啾地吮吸，一边用舌头来回舔弄。",
+  "attempts": 1,
+  "elapsed": 6.88152813911438,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [10]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 9,
+    "lines_dst": 9,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7840531561461794,
+    "similarity": 0.006644518272425249,
+    "max_repeat": 1,
+    "unique_char": 0.4364406779661017
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 266
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，语气与原文一致，无实质错误。",
+    "at": "2026-11-08 19:08:53",
+    "secs": 1.1
+  }
+}

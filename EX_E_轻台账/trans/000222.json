@@ -1,0 +1,60 @@
+{
+  "id": 222,
+  "status": "ok",
+  "text": "去了厨房又去了外面的友香小姐孤零零地坐在公园的长椅上。\n和我昨天看烟花的地方是同一个地方。\n即使从远处看，【#11#】小姐的背影也显得很寂寞。\n是不是不要跟她打招呼比较好呢？\n但是，我都已经来到这里了。\n优「那……那个…………」\n【#11#】「啊……小优…………」\n她瞥了我一眼，然后垂下眼帘。\n优「我可以坐在你旁边吗？」\n【#11#】「…………嗯」\n【#11#】小姐的声音很消沉。\n优「你今天来得真早啊」\n【#11#】「…………因为我睡不着」\n优「…………睡不着？咦？」\n【#11#】「我一直没睡……从那之后……」\n优「这，这样……啊……」\n【#11#】小姐的眼睛下面出现了黑眼圈。\n因为这个原因，我感觉不到平时友香小姐的那种活力。\n【#11#】「小优，你是追着我来的吗？」\n优「…………咦？」",
+  "attempts": 2,
+  "elapsed": 14.086845636367798,
+  "checks": [],
+  "metrics": {
+    "lines_src": 20,
+    "lines_dst": 20,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 11,
+    "quote_dst": 11,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.9090909090909091,
+    "similarity": 0.02727272727272727,
+    "max_repeat": 1,
+    "unique_char": 0.4
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "20→22"
+        },
+        {
+          "name": "placeholder",
+          "level": "fail",
+          "detail": "凭空出现: [10]"
+        }
+      ],
+      "chars": 427
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 348
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误。",
+    "at": "2026-11-08 19:09:37",
+    "secs": 1.1
+  }
+}

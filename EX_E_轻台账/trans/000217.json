@@ -1,0 +1,60 @@
+{
+  "id": 217,
+  "status": "ok",
+  "text": "【#10#】「嗯呼啊啊……啊……啊呜呜呜呜……噫嗯！」\n【#11#】说得没错，我能感觉到射在子宫里的精液，正在慢慢地在阴道里扩散开来。\n感觉我的肉棒好像要和精液一起融化了。\n优「呼啊……哈啊……嗯……呼啊啊……」\n我不由自主地发出了声音。\n这样一来，礼子小姐应该已经知道肉棒的主人是我了吧。\n优「哈啊……哈啊……【#10#】小姐……」\n我应该道歉吗？\n还是说，变得更凶暴地责备她，最后才能让礼子小姐感到高兴呢？\n【#10#】「嗯……嗯呼……呼啊……哈啊……哈啊……」\n优「…………咦？」\n【#11#】「呵呵，没用的。姐姐已经昏过去了」\n优「昏过去……怎么会……」\n【#11#】「没事的。我说过吧。姐姐是个会一直有感觉直到昏过去的淫荡人偶」\n优「可，可是……」",
+  "attempts": 2,
+  "elapsed": 14.454012632369995,
+  "checks": [],
+  "metrics": {
+    "lines_src": 15,
+    "lines_dst": 15,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 9,
+    "quote_dst": 9,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.804945054945055,
+    "similarity": 0.024725274725274724,
+    "max_repeat": 1,
+    "unique_char": 0.3651877133105802
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "15→17"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 415
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 329
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:09:35",
+    "secs": 1.1
+  }
+}

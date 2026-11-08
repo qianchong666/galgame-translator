@@ -1,0 +1,50 @@
+{
+  "id": 285,
+  "status": "degraded",
+  "text": "【#11#】「嘘，少来。嘴上这么说，你背上都起鸡皮疙瘩了……」\n礼子小姐的后背爬满了快乐的证明。\n友香小姐用舌头舔舐着她的后背。\n【#10#】「呼啊啊……咿唔唔……咿啊！不，不行……真的不行……乳头要被扯掉了……！」\n优 「【#11#】小姐，这个奴隶好像完全不想舔啊」\n【#11#】「哎呀，那就需要更严厉的惩罚了呢」\n【#11#】小姐依然抓着礼子小姐的乳房，另一只手则伸向了她的下腹部。\n【#10#】小姐的蜜缝被大量爱液所浸湿，简直让人误以为是尿失禁，而【#11#】小姐将手指滑入其中。\n【#10#】「咿唔！哈，哈唔唔唔唔唔……」\n咕啾，咕啾，咕啾咕啾……咕啾……。",
+  "attempts": 1,
+  "elapsed": 7.935606241226196,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [11]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 10,
+    "lines_dst": 10,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7532051282051282,
+    "similarity": 0.00641025641025641,
+    "max_repeat": 1,
+    "unique_char": 0.5191489361702127
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 283
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:10:02",
+    "secs": 1.1
+  }
+}

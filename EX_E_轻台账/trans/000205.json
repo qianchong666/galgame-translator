@@ -1,0 +1,72 @@
+{
+  "id": 205,
+  "status": "degraded",
+  "text": "总是那么强势的礼子小姐，现在却只能任由【#11#】摆布，不，是被【#11#】玩弄。\n但是，她看起来比平时还要有感觉。\n没错，比她责备我的时候还要有感觉。\n难道说，【#10#】其实更喜欢被人玩弄吗？\n【#10#】「呀啊，咿唔唔……嗯唔唔……嗯！」\n【#11#】「好厉害……皮肤渐渐变成樱花色了……胸部也变得这么硬……」\n【#11#】「姐姐无论过了多久都还是这么年轻……明明都有那么大的孩子了……」\n【#10#】「嗯……啊啊……啊呼，呼啊啊啊啊……！」\n看着她们两人淫荡地交缠在一起，我也忍不住想要加入其中。\n我也想做些下流的事情。\n友香到底什么时候才会给我信号呢？\n【#11#】「呵呵，姐姐的这里，开始膨胀了……」\n【#10#】「嗯唔唔！呀！那，那里是……！！」",
+  "attempts": 2,
+  "elapsed": 13.741888761520386,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [11]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 13,
+    "lines_dst": 13,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 6,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.8117647058823529,
+    "similarity": 0.0029411764705882353,
+    "max_repeat": 1,
+    "unique_char": 0.4855072463768116
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "13→16"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        },
+        {
+          "name": "kana_residue",
+          "level": "warn",
+          "detail": "2.4%"
+        }
+      ],
+      "chars": 504
+    },
+    {
+      "round": 2,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 330
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文意思，语气与情感表达自然，无实质错误。",
+    "at": "2026-11-08 19:09:31",
+    "secs": 1.2
+  }
+}

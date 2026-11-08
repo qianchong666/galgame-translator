@@ -1,0 +1,60 @@
+{
+  "id": 167,
+  "status": "ok",
+  "text": "【#12#】去补习班之后，我一个人在贵史的房间里看漫画，或者打游戏。\n其实，我本来是想和【#10#】小姐或者友香小姐做些什么的。\n但是，【#10#】小姐是家庭主妇，要打扫，洗衣服，总之好像很忙。\n相反，友香小姐则说自己还有点宿醉，又回房间睡觉去了。\n据【#10#】小姐所说，辞职之后好像可以领到类似保险金的东西，所以她打算在那期间好好休养。\n虽然我不太懂工作方面的事，但我想大概就是这么回事吧。\n总之，没人陪我玩，我也只能一个人无所事事地消磨时间。\n但是，难得能在憧憬的，而且还是做过Ｈ的两个人的家里过夜，却有点无聊。\n啊……不过，我本来就是为了和贵史玩才来的嘛，嘿嘿。",
+  "attempts": 2,
+  "elapsed": 11.822829008102417,
+  "checks": [],
+  "metrics": {
+    "lines_src": 9,
+    "lines_dst": 9,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 0,
+    "quote_dst": 0,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7521613832853026,
+    "similarity": 0.0,
+    "max_repeat": 1,
+    "unique_char": 0.5325670498084292
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "9→11"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [12]"
+        }
+      ],
+      "chars": 361
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 285
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确通顺，无实质错误，符合原文语境与语气。",
+    "at": "2026-11-08 19:09:16",
+    "secs": 1.1
+  }
+}

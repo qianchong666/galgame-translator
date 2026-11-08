@@ -1,0 +1,60 @@
+{
+  "id": 151,
+  "status": "ok",
+  "text": "【#11#】「嗯唔唔……当，当然了。你想射出来……想得不得了吧？快点……我也想，动起来……」\n优「嗯……嗯，那……那……」\n【#11#】「嗯唔唔唔！噫唔！噫！呼哇啊啊啊……！呀，呼啊，好棒！肉棒……嗯，好棒……！」\n我的腰就像决堤了一样，开始粗暴地抽插。\n【#11#】「呀啊啊……好大……好大啊……肉棒，肉棒竟然这么……」\n【#11#】「果然，好厉害……肉棒……嗯，小优的肉棒……好厉害，好厉害啊！！」\n【#11#】「啊嗯！啊……啊啊……这，这么……深还是第一次……啊嗯，又，又要进来了……啊啊，被侵犯了」\n我挣脱缠绕上来的阴道壁，但又立刻恋恋不舍地冲进温暖的粘体中。\n每次冲进去，友香小姐的里面都会欢迎我。",
+  "attempts": 2,
+  "elapsed": 12.693946123123169,
+  "checks": [],
+  "metrics": {
+    "lines_src": 9,
+    "lines_dst": 9,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 6,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7506849315068493,
+    "similarity": 0.03287671232876712,
+    "max_repeat": 1,
+    "unique_char": 0.3686131386861314
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "9→11"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 383
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 304
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:09:10",
+    "secs": 1.1
+  }
+}

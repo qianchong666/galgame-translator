@@ -160,7 +160,8 @@ def _demask(text: str, names: Dict[str, str]) -> str:
 
 
 def build_ledgers(cfg, log, chunks: List[str], brief: dict,
-                  scene: int = 8, names: Optional[Dict[str, str]] = None) -> List[dict]:
+                  scene: int = 8, names: Optional[Dict[str, str]] = None,
+                  presence: Optional[List[List[str]]] = None) -> List[dict]:
     """按原文顺序扫一遍，每 scene 块产出一条台账。返回 [ {cid, ...}, ... ]"""
     from .director import make_director
 
@@ -188,12 +189,16 @@ def build_ledgers(cfg, log, chunks: List[str], brief: dict,
             data = {k: (_demask(v, names) if isinstance(v, str)
                         else [_demask(x, names) for x in v] if isinstance(v, list) else v)
                     for k, v in data.items()}
-        prev = (f"人物：{'、'.join(data.get('characters') or []) or '?'}；"
+        prev_chars = (presence[start] if (presence and start < len(presence)) else []) or []
+        prev = (f"人物：{'、'.join(prev_chars) or '、'.join(data.get('characters') or []) or '?'}；"
                 f"称呼：{data.get('address') or '-'}；"
                 f"事件：{data.get('events') or '-'}")
         for i in range(start, min(start + step, total)):
+            row = dict(data)
+            if presence and i < len(presence):
+                row["characters"] = presence[i]      # 确定性名单，覆盖模型猜的
             rows.append({"cid": i + 1, "scene_from": start + 1,
-                         "scene_to": min(start + step, total), **data})
+                         "scene_to": min(start + step, total), **row})
         log.info(f"  台账 {start + 1}-{min(start + step, total)}/{total}"
                  f"：{(data.get('events') or '')[:30]}")
     return rows
@@ -330,3 +335,54 @@ def strip_echo(text: str, block: str) -> str:
     if hit < len(blk) and hit < 2 and not lines[0].startswith(blk[0][:12]):
         return text
     return chr(10).join(lines[hit:]).lstrip()
+
+def presence_from_masks(chunk_texts: List[str], style: str,
+                        names: Dict[str, str]) -> List[List[str]]:
+    """按遮蔽标记确定每块出场人物（零模型、零误差）。
+
+    masked.txt 里出现 【#10#】 就说明 10 号角色在这一块出场；
+    这比让模型读日文猜可靠得多（实测模型会把婆媳、母女搞混）。
+    """
+    from .placeholder import indices_in
+
+    allowed = set()
+    for k in names:
+        try:
+            allowed.add(int(k))
+        except (TypeError, ValueError):
+            continue
+    out: List[List[str]] = []
+    for t in chunk_texts:
+        got = indices_in(t, style, allowed) or {}
+        ordered = []
+        for idx in sorted(got, key=lambda i: got[i], reverse=True):
+            nm = names.get(str(idx))
+            if nm and nm not in ordered:
+                ordered.append(nm)
+        out.append(ordered)
+    return out
+
+def narrator_of(brief: dict) -> Optional[str]:
+    """从简报里找出叙述者（一人称作品里他每块都在场，但不是每次都被点名）。"""
+    narration = str(brief.get("narration") or "")
+    if "一人称" not in narration and "第一人称" not in narration:
+        return None
+    for x in brief.get("characters") or []:
+        role = str(x.get("role") or "")
+        if any(k in role for k in ("男主", "主角", "主人公", "叙述者")):
+            return str(x.get("name") or "") or None
+    import re as _re
+    m = _re.search(r"[（(]([^）)]{1,6})[）)]", narration)
+    return m.group(1) if m else None
+
+
+def merge_narrator(presence: List[List[str]], brief: dict) -> List[List[str]]:
+    """一人称作品：把叙述者补进每一块（排在最前，去重）。"""
+    nm = narrator_of(brief)
+    if not nm:
+        return presence
+    out: List[List[str]] = []
+    for row in presence:
+        cur = [nm] + [x for x in row if x != nm]
+        out.append(cur)
+    return out

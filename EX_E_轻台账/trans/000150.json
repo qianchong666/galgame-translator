@@ -1,0 +1,60 @@
+{
+  "id": 150,
+  "status": "ok",
+  "text": "优「好……好的。我进去了」\n我的肉棒像是被迷住了一样，被入口吸引过去。\n——咕啾。\n【#11#】「呼啊啊啊……嗯嗯！」\n龟头碰到了裂缝。\n仿佛有一股微弱的电流流过，一股虽然舒适但又强烈的刺激感从我的背部窜了上来。\n【#11#】「没错……很好，就是这样……啊嗯……就这样直直地把腰沉下去……」\n刚才我还在舔的地方……那道美丽而神秘的裂缝，正在将我丑陋的肉棒吞没进去。\n【#11#】「唔……咕唔唔，嗯唔！好、好厉害……还在进来……呼啊啊啊！」\n友香小姐紧绷的阴道壁没有拒绝我膨胀的肉棒，反而像是欢迎它一样将它吞没进去。\n优「呼啊……呼啊啊……好舒服哦……【#11#】小姐……我可以……我可以动吗？」",
+  "attempts": 2,
+  "elapsed": 11.488460302352905,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7844827586206896,
+    "similarity": 0.020114942528735632,
+    "max_repeat": 1,
+    "unique_char": 0.4432234432234432
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 359
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 297
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误，符合原文语境与风格。",
+    "at": "2026-11-08 19:09:10",
+    "secs": 1.1
+  }
+}

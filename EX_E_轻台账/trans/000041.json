@@ -1,0 +1,50 @@
+{
+  "id": 41,
+  "status": "degraded",
+  "text": "【#11#】「你过来一下」\n【#11#】没有放开我的手，也没有让我把鸡鸡收起来，只是拉着垂头丧气的我来到了走廊的尽头。\n【#11#】「好了……你有什么想说的吗？」\n优「…………对，对不起」\n【#11#】「呵呵，不是这个吧？」\n优「咦……？」\n【#11#】「小优，你为什么要做那种事呢？」\n优「那……那是因为…………」\n问我为什么……那当然是因为，我听到门后传来礼子小姐的声音，心里小鹿乱撞……鸡鸡就变大了……【#11#】「嘻嘻……你很中意我姐姐吗？」\n优「咦……？」\n【#11#】「也是呢，毕竟你都半夜偷偷爬起来做这种事了嘛」\n优「不，不是的……我，那个……这只是，碰，碰巧……」",
+  "attempts": 1,
+  "elapsed": 6.963746070861816,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [11]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 11,
+    "quote_dst": 11,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7848101265822784,
+    "similarity": 0.012658227848101266,
+    "max_repeat": 1,
+    "unique_char": 0.38306451612903225
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 290
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:08:27",
+    "secs": 1.1
+  }
+}

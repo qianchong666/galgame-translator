@@ -1,0 +1,60 @@
+{
+  "id": 238,
+  "status": "ok",
+  "text": "什么……虽然不是很明白，但事情好像顺利解决了。\n话说，这本来不是在说我吗？\n——我这么想，结果大错特错。\n【#10#】「小优，我姑且问一下，你比较喜欢我和友香的哪一边？」\n优「咦？哪、哪一边……那个……我……呃……」\n【#11#】「嘻嘻，姐姐好坏心眼。你明明知道小优答不出来。」\n【#10#】「因为如果他能干脆地回答，那不就解决一件事了吗？」\n【#11#】「是这样没错，但小优答不出来吧？小优喜欢我和姐姐两个人吧？」\n优「呃……呃……那个，这个……该怎么说呢……」\n【#11#】「啊，你别误会，我并不是在责备你。」\n我、我实在不这么觉得……哈哈。",
+  "attempts": 2,
+  "elapsed": 11.984091520309448,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 7,
+    "quote_dst": 7,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7189349112426036,
+    "similarity": 0.005917159763313609,
+    "max_repeat": 1,
+    "unique_char": 0.42386831275720166
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 362
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 273
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误，符合原文语境与语气。",
+    "at": "2026-11-08 19:09:43",
+    "secs": 1.1
+  }
+}

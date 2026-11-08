@@ -1,0 +1,60 @@
+{
+  "id": 136,
+  "status": "ok",
+  "text": "【#11#】「明明脸蛋这么可爱，小鸡鸡却是一根让人说不出话的，一跳一跳的巨根呢……对吧？」\n优「…………诶，啊……好，好害羞……」\n【#11#】「呵呵……我是在夸你哦。小优，你以后肯定会把很多女孩子弄哭的……嘻嘻」\n【#11#】「那么……小优，你今晚有撸管吗？」\n【#11#】小姐用右手的拇指和食指比出一个圆圈，上下动了动。\n优「这，这个……倒是没有……」\n【#11#】「啊……是吗？我今天也没那个心情，所以没有自慰哦……呵呵」\n优「啊……这样啊……【#11#】小姐也……是吗……哈哈」\n我语无伦次地回答道。\n在大半夜和一个女人聊着这种话题，感觉好像不是现实。\n【#11#】「所以，我们去洗澡吧，小优」",
+  "attempts": 2,
+  "elapsed": 12.389323949813843,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 8,
+    "quote_dst": 8,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7731343283582089,
+    "similarity": 0.026865671641791045,
+    "max_repeat": 1,
+    "unique_char": 0.44787644787644787
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "fail",
+          "detail": "凭空出现: [10]"
+        }
+      ],
+      "chars": 388
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 301
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，语感自然，无实质错误。",
+    "at": "2026-11-08 19:09:05",
+    "secs": 0.9
+  }
+}

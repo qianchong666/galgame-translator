@@ -1,0 +1,60 @@
+{
+  "id": 256,
+  "status": "ok",
+  "text": "优「不是的！！【#10#】，友香，我想让你们两个都成为我的女人！！我想让你们两个都变成我的人！！」\n【#10#】「…………………………」\n【#11#】「………………」\n啊啊……【#10#】，【#11#】。\n【#10#】「嗯，这才是我们的小优嘛」\n优「…………咦？」\n【#11#】「对小优来说，同时劈腿我和姐姐，根本就不是什么大不了的事呢」\n优「啊，啊，啊啊啊……」\n太好了。\n太好了！\n！\n她们理解了。\n【#10#】和【#11#】都理解了我的心情。\n【#10#】「真是的，不许哭啦。接下来，小优就要把两个女人变成自己的东西了」\n【#11#】「不过，这就是小优的魅力嘛。小优，今后我们三个要一直和睦相处哦」\n优「是！！」",
+  "attempts": 2,
+  "elapsed": 13.612938165664673,
+  "checks": [],
+  "metrics": {
+    "lines_src": 16,
+    "lines_dst": 16,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 10,
+    "quote_dst": 10,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.788961038961039,
+    "similarity": 0.03896103896103896,
+    "max_repeat": 1,
+    "unique_char": 0.34156378600823045
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "16→18"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 387
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 309
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情感与情节，无实质错误。",
+    "at": "2026-11-08 19:09:50",
+    "secs": 0.9
+  }
+}

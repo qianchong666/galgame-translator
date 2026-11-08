@@ -1,0 +1,150 @@
+{
+  "version": "4.0",
+  "style": "hash",
+  "terms": [
+    {
+      "idx": 1,
+      "term": "アンズ飴屋",
+      "type": "人名",
+      "target": "杏子糖屋",
+      "conf": "high",
+      "count": 1,
+      "note": "中控定名"
+    },
+    {
+      "idx": 2,
+      "term": "友香御主人",
+      "type": "人名",
+      "target": "友香御主人",
+      "conf": "high",
+      "count": 1,
+      "note": "中控定名(同形)"
+    },
+    {
+      "idx": 3,
+      "term": "九条礼子",
+      "type": "人名",
+      "target": "九条礼子",
+      "conf": "high",
+      "count": 2,
+      "note": "中控定名(同形)"
+    },
+    {
+      "idx": 4,
+      "term": "早速友香",
+      "type": "人名",
+      "target": "立刻友香",
+      "conf": "high",
+      "count": 1,
+      "note": "中控定名"
+    },
+    {
+      "idx": 5,
+      "term": "時折友香",
+      "type": "人名",
+      "target": "偶尔友香",
+      "conf": "high",
+      "count": 1,
+      "note": "中控定名"
+    },
+    {
+      "idx": 6,
+      "term": "御主人",
+      "type": "人名",
+      "target": "御主人",
+      "conf": "high",
+      "count": 2,
+      "note": "中控定名(同形)"
+    },
+    {
+      "idx": 8,
+      "term": "真理乃",
+      "type": "人名",
+      "target": "真理乃",
+      "conf": "high",
+      "count": 1,
+      "note": "中控定名(同形)"
+    },
+    {
+      "idx": 10,
+      "term": "礼子",
+      "type": "人名",
+      "target": "礼子",
+      "conf": "high",
+      "count": 1163,
+      "note": "中控定名(同形)"
+    },
+    {
+      "idx": 11,
+      "term": "友香",
+      "type": "人名",
+      "target": "友香",
+      "conf": "high",
+      "count": 955,
+      "note": "中控定名(同形)"
+    },
+    {
+      "idx": 12,
+      "term": "貴史",
+      "type": "人名",
+      "target": "贵史",
+      "conf": "high",
+      "count": 234,
+      "note": "中控定名"
+    },
+    {
+      "idx": 13,
+      "term": "鳴沢",
+      "type": "人名",
+      "target": "鸣泽",
+      "conf": "high",
+      "count": 18,
+      "note": "中控定名"
+    },
+    {
+      "idx": 14,
+      "term": "クリ",
+      "type": "人名",
+      "target": "克里",
+      "conf": "high",
+      "count": 11,
+      "note": "中控定名"
+    },
+    {
+      "idx": 20,
+      "term": "人形",
+      "type": "人名",
+      "target": "人形",
+      "conf": "high",
+      "count": 1,
+      "note": "中控定名(同形)"
+    },
+    {
+      "idx": 22,
+      "term": "亀頭",
+      "type": "人名",
+      "target": "龟头",
+      "conf": "high",
+      "count": 4,
+      "note": "中控定名"
+    },
+    {
+      "idx": 23,
+      "term": "精巣",
+      "type": "人名",
+      "target": "睾丸",
+      "conf": "high",
+      "count": 1,
+      "note": "中控定名"
+    },
+    {
+      "idx": 26,
+      "term": "教師",
+      "type": "人名",
+      "target": "女教师",
+      "conf": "medium",
+      "count": 5,
+      "note": "中控定名"
+    }
+  ]
+}

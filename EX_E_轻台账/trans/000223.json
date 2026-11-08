@@ -1,0 +1,60 @@
+{
+  "id": 223,
+  "status": "ok",
+  "text": "【#11#】「居然在这种时间出现在这种地方，小优，你是追着我来的吗？」\n优「咦……该，该说是追着你来的吗，那个……因为我看到【#11#】小姐出去了，所以……怎么说呢，有点在意……」\n【#11#】「呵呵……那就是追着我来的哦」\n寂寞的表情稍微绽放出笑容。\n优「是啊……对不起」\n【#11#】「不，让你担心了呢……对不起」\n优「…………【#11#】小姐」\n【#11#】「昨天的事……原谅我吧，小优」\n优 「…………咦？」\n【#11#】「姐姐大概没事的，嗯，都是我的错，小优不用在意」\n优「…………啊啊，那个……【#11#】小姐」\n【#11#】「…………嗯？」\n优 「那个……昨天的事不只是友香小姐的错，我也……想对礼子小姐做那种事」",
+  "attempts": 2,
+  "elapsed": 13.122090816497803,
+  "checks": [],
+  "metrics": {
+    "lines_src": 13,
+    "lines_dst": 13,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 12,
+    "quote_dst": 12,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7624633431085044,
+    "similarity": 0.017595307917888565,
+    "max_repeat": 1,
+    "unique_char": 0.34615384615384615
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "13→15"
+        },
+        {
+          "name": "placeholder",
+          "level": "fail",
+          "detail": "凭空出现: [10]"
+        }
+      ],
+      "chars": 389
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 314
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文对话与情感，无实质错误。",
+    "at": "2026-11-08 19:09:37",
+    "secs": 1.1
+  }
+}

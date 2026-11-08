@@ -1,0 +1,60 @@
+{
+  "id": 251,
+  "status": "ok",
+  "text": "优「不，不行……屁股……要是进到屁股里的话……啊！啊呜呜呜……！！」\n优 「呜啊啊啊，啊！啊呜呜呜……呜啊啊！！」\n【#10#】「呀……嗯呜……！嗯嗯呜呜呜呜……嗯……嗯咕，嗯咕呜呜呜……」\n【#11#】「呼诶？呼啊……啊……射出来了啊……」\n【#11#】小姐几乎在掰开我的屁眼的同时，我也射精了。\n【#10#】「哈唔……嗯……嗯呜呜，嗯……咕嘟，咕嘟……」\n【#10#】小姐没有理会恍惚的我，喝下了射在嘴里的精液。\n【#11#】「呼啊……嗯，啊嗯呜呜……好棒，小优的精液，好棒……啊啊……」\n另一方面，【#11#】小姐则用脸接住了从礼子小姐嘴里溢出的精液，一脸陶醉。\n啊啊……果然，两个人都好棒。\n要我选……这种事我做不到啊。",
+  "attempts": 2,
+  "elapsed": 14.488120794296265,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 6,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.8343558282208589,
+    "similarity": 0.03680981595092025,
+    "max_repeat": 1,
+    "unique_char": 0.3161764705882353
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 393
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 314
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:09:49",
+    "secs": 1.1
+  }
+}

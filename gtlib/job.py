@@ -274,9 +274,16 @@ class Translator:
                 brief = memmod.build_brief(self.cfg, self.log, texts, terms_all)
                 nmap = {str(e.get("idx")): (e.get("target") or e.get("term"))
                         for e in terms_all if e.get("idx") is not None}
+                # 出场人物：按遮蔽标记确定性统计，不问模型
+                presence = memmod.presence_from_masks(texts, self.style,
+                                                      {k: v for k, v in nmap.items() if v})
+                presence = memmod.merge_narrator(presence, brief)
+                hit = sum(1 for x in presence if x)
+                self.log.info(f"  出场人物：{hit}/{len(texts)} 块按遮蔽标记确定"
+                              f"（零模型调用）")
                 rows = memmod.build_ledgers(self.cfg, self.log, texts, brief,
                                             scene=int(getattr(self.cfg, "memory_scene", 8)),
-                                            names=nmap)
+                                            names=nmap, presence=presence)
                 if brief or rows:
                     memmod.save_memory(base, brief, rows)
                     self.mem_brief = brief

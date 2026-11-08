@@ -1,0 +1,60 @@
+{
+  "id": 142,
+  "status": "ok",
+  "text": "【#11#】「那……那里，那里……啊啊啊，嗯唔唔……在小穴里，舌头在里面动来动去的」\n【#11#】「好……好棒！好棒啊……再多搅动一下……舌头，舌头……嗯唔嗯嗯」\n因为我一心一意地舔舐着小穴，【#11#】小姐变得越来越淫荡了。\n【#11#】「唔唔唔……这，这么可爱的孩子……嗯唔唔，嗯，居然在帮我……清洗我的小穴……呼啊，呼啊啊……」\n【#11#】「呀啊啊……不行，啊，我……嗯，感觉越来越下流了」\n仿佛在印证【#11#】小姐的话一般，爱液从她的双腿之间源源不断地流出。\n我几乎要被那大量的爱液淹没。\n优「噗哈啊……呼啊……哈啊……【#11#】小姐……好厉害……爱液好厉害……流个不停……」",
+  "attempts": 2,
+  "elapsed": 12.036558866500854,
+  "checks": [],
+  "metrics": {
+    "lines_src": 8,
+    "lines_dst": 8,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7784615384615384,
+    "similarity": 0.009230769230769232,
+    "max_repeat": 1,
+    "unique_char": 0.3715415019762846
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "8→10"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 379
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 295
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文含义，语序与语气自然，无实质错误。",
+    "at": "2026-11-08 19:09:07",
+    "secs": 0.9
+  }
+}

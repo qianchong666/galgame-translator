@@ -1,0 +1,60 @@
+{
+  "id": 267,
+  "status": "ok",
+  "text": "【#10#】「呼啊啊……啊嗯！可以哦……肉棒在……在小穴里……」\n啊，对哦……\n既然她们叠在一起，那只要把她们当成一个女性对待就行了。\n我将肉棒从礼子小姐体内拔出来，然后猛地插入友香小姐体内。\n【#11#】「嗯唔……呼啊啊啊……没错，就这样……轮流侵犯我们……啊！啊！啊啊啊嗯！！」\n友香小姐的小穴虽然一下子缩紧，却还是轻易地接纳了我。\n我尽情地在她那宛如柔软丝绸的阴道壁上驰骋。\n尽管感到依依不舍，我还是将肉棒从【#11#】小姐体内拔出来，再次贯穿礼子小姐。\n【#10#】「呀啊啊啊啊……啊嗯！啊……呀！呼啊啊……好舒服……好舒服啊……」\n我从【#10#】小姐体内拔出来，再次插入【#11#】小姐体内。",
+  "attempts": 2,
+  "elapsed": 13.13399076461792,
+  "checks": [],
+  "metrics": {
+    "lines_src": 10,
+    "lines_dst": 10,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 3,
+    "quote_dst": 3,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.8286604361370716,
+    "similarity": 0.021806853582554516,
+    "max_repeat": 1,
+    "unique_char": 0.40225563909774437
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "10→12"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 386
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 302
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误，符合原文情节与语气。",
+    "at": "2026-11-08 19:09:55",
+    "secs": 1.2
+  }
+}

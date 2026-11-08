@@ -1,0 +1,60 @@
+{
+  "id": 234,
+  "status": "ok",
+  "text": "是吗，我和贵史的妈妈，和【#12#】憧憬的人发生了关系。\n已经无法回头了。\n成为大人，和成熟的女人发生关系，就是这么回事。\n事到如今才意识到的事实，让我的身体不禁颤抖起来。\n和昨天一样，【#12#】去补习班之后——我和【#10#】姐，【#11#】姐，不约而同地聚集在了客厅。\n但是，即便如此，我们三人也没有开始聊些什么。\n【#10#】姐坐在厨房的老位置上，【#11#】姐坐在电视机前的沙发上，而我则尴尬地坐在两人中间。\n【#10#】「……………………」\n【#11#】「………………」\n优「……………………」\n怎么办，变成这种状况了。\n虽然不想认为责任全都在我，但也不能说完全没有。",
+  "attempts": 2,
+  "elapsed": 11.867286205291748,
+  "checks": [],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 3,
+    "quote_dst": 3,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7034883720930233,
+    "similarity": 0.0,
+    "max_repeat": 1,
+    "unique_char": 0.512396694214876
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 392
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 290
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与情绪，无实质错误。",
+    "at": "2026-11-08 19:09:42",
+    "secs": 1.2
+  }
+}

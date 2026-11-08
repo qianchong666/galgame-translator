@@ -1,0 +1,60 @@
+{
+  "id": 166,
+  "status": "ok",
+  "text": "【#11#】「是吗？那我也好久没去了，这次就一起去吧」\n【#12#】「真的吗？太好了」\n【#11#】「既然这样，姐姐也一起去吧？」\n【#11#】小姐这么一说，【#12#】立刻露出一副嫌弃的表情。\n【#10#】「哎？我也去？唔，这倒是无所谓啦……」\n礼子小姐稍微思考了一下。\n她是不是不喜欢祭典之类的活动？\n而【#12#】——也就是贵史，正用眼神向我示意“快说点什么，别让老妈也跟着来啊”。\n不过，虽然对【#12#】有些抱歉，但我还是想和礼子小姐以及【#11#】小姐一起去啊。\n优「机会难得，不去吗？一个人看家也挺无聊的」\n【#10#】「也是……吧。偶尔去一次也不错」\n优「……是啊」\n【#10#】「嗯，那就四个人一起去吧？」\n优「好的」\n我看到【#12#】的肩膀顿时耷拉了下来。",
+  "attempts": 2,
+  "elapsed": 13.859558582305908,
+  "checks": [],
+  "metrics": {
+    "lines_src": 15,
+    "lines_dst": 15,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 9,
+    "quote_dst": 9,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.834375,
+    "similarity": 0.01875,
+    "max_repeat": 1,
+    "unique_char": 0.47191011235955055
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "15→17"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 399
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 339
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "整体通顺，情感与对话逻辑准确，无实质错误。",
+    "at": "2026-11-08 19:09:16",
+    "secs": 1.1
+  }
+}

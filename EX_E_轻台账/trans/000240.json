@@ -1,0 +1,60 @@
+{
+  "id": 240,
+  "status": "ok",
+  "text": "【#10#】「你很烦啊。你不是也说了吗，至今为止你身边都没有能让你这么有感觉的男人」\n【#11#】「是啊。因为至今为止都没有能好好回应我性欲的男人嘛。小优从那里到其他地方都太棒了」\n优「……是，是吗」\n怎么回事？\n明明作为男人最想被夸奖的部分被夸奖了，为什么我却感觉如坐针毡呢。\n【#10#】「嗯……所以呢，今后我想让小优好好选一下，你到底喜欢我和友香中的哪一个」\n【#11#】「事情就这样定下来了哦，小优」\n这能叫定下来吗？\n也就是说，我必须决定一切，怎……怎么办？\n？\n而且，比她们俩小很多岁的我，可以做这种事吗？\n最重要的是，在那之前……优「那……那个……」",
+  "attempts": 2,
+  "elapsed": 11.522604703903198,
+  "checks": [],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 6,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7350427350427351,
+    "similarity": 0.005698005698005698,
+    "max_repeat": 1,
+    "unique_char": 0.45348837209302323
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 362
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 282
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "整体语义准确，语气与原文一致，无实质错误。",
+    "at": "2026-11-08 19:09:44",
+    "secs": 1.1
+  }
+}

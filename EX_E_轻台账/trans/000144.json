@@ -1,0 +1,60 @@
+{
+  "id": 144,
+  "status": "ok",
+  "text": "【#11#】「啊啊嗯，对，就是这样……最喜欢听话的孩子了……嗯唔唔……嗯，呼啊啊……！」\n感觉就像自己变成了一只小狗一样。\n我不断地喝着从吸水瓶中涌出的水，仿佛永远喝不够。\n【#11#】「对，就是这样……就这样从里面吸出来……发出啾噜啾噜的声音，吸出来……吸出来」\n优「嗯唔唔……啾噜，啾！啾唔唔唔唔……」\n【#11#】「啊啊啊，好棒，太棒了……小优在喝着。喝着我下流的汁液」\n不知何时，尿液和汗水的咸味已经消失了。\n取而代之的是爱液的甜味，在我的口中扩散开来。\n【#11#】「是什么味道？我的小穴汁，是什么味道？」\n优「很好喝……【#11#】小姐的爱液，很好喝」\n我咕嘟咕嘟地咽下甘甜的蜜汁。",
+  "attempts": 2,
+  "elapsed": 12.249632835388184,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 6,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.782991202346041,
+    "similarity": 0.017595307917888565,
+    "max_repeat": 1,
+    "unique_char": 0.39325842696629215
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 382
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 297
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:09:07",
+    "secs": 1.1
+  }
+}

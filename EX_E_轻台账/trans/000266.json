@@ -1,0 +1,60 @@
+{
+  "id": 266,
+  "status": "ok",
+  "text": "【#11#】「但是呢，我们两个人一起交往，就是这么回事哦……」\n这么说着，两人像是重叠在一起一样倒在了床上。\n【#10#】「是啊……来，快点……」\n两人的阴部紧密地贴合在一起，一边扭动着一边邀请着我。\n大概是因为刚才被舔的时候，两人的阴蒂重叠在一起的缘故吧，两人的裂缝已经完全湿透，张开了。\n【#11#】「嗯唔……快点搅动起来……」\n光是看到这幅光景，我那半勃起的鸡鸡就眼看着恢复了原本的硬度。\n优「那么……我要进去了哦……」\n我这么说着，将鸡鸡对准了礼子小姐的阴道。\n【#10#】「呼啊……呀嗯，从我开始啊……好开心……呀，呀啊……」\n鸡鸡被阴道咕嘟咕嘟地吞了进去。\n礼子小姐那熟透了的阴道里，已经湿得不能再湿了。",
+  "attempts": 2,
+  "elapsed": 13.322941541671753,
+  "checks": [],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.797752808988764,
+    "similarity": 0.014044943820224719,
+    "max_repeat": 1,
+    "unique_char": 0.4295774647887324
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 387
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 308
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:09:54",
+    "secs": 1.1
+  }
+}

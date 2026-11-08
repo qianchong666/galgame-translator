@@ -1,0 +1,60 @@
+{
+  "id": 125,
+  "status": "ok",
+  "text": "但是，虽然对【#12#】有点抱歉，但我还是想和礼子小姐一起去……祭典。\n然后，如果能两人独处的话……那就更好了。\n【#12#】「呼啊啊啊～～～～～～～～」\n【#11#】「呵呵呵呵，好大的哈欠。【#12#】君，你已经困了吧？」\n【#12#】「诶？没有啊」\n【#11#】「但是，你从刚才开始就一直在挠身体。【#12#】君一困就会挠身体呢～～」\n优 「啊……原来是这样啊。我还在想你从刚才开始就在做什么呢」\n【#12#】「又没什么关系。反正我就是会做啊」\n【#11#】「不过，这～～个习惯有点奇怪呢。这样会被女孩子讨厌的哦」\n【#11#】「晚上，和女朋友两人独处，气氛正好的时候……你却在挠痒痒～～这样。嘻嘻嘻?」\n【#12#】「…………才不会那样呢」",
+  "attempts": 2,
+  "elapsed": 13.419750213623047,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 9,
+    "quote_dst": 9,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.803125,
+    "similarity": 0.0125,
+    "max_repeat": 1,
+    "unique_char": 0.4280155642023346
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11, 12]"
+        }
+      ],
+      "chars": 403
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 323
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文意思，语气与对话感自然，无实质错误。",
+    "at": "2026-11-08 19:08:59",
+    "secs": 1.2
+  }
+}

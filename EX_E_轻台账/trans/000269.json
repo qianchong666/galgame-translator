@@ -1,0 +1,60 @@
+{
+  "id": 269,
+  "status": "ok",
+  "text": "优「这样啊……【#10#】小姐很喜欢阴蒂呢……」\n【#10#】「嗯……嗯！【#14#】蒂斯我最喜欢了……好舒服哦……」\n【#11#】「姐姐……呼啊，啊……那……小鸡鸡可以专门给我用吗？」\n【#10#】「呼诶？小鸡鸡……专门给【#11#】用吗？」\n【#11#】「……嗯！对，这样的话……唔啊！我会为了姐姐激烈地摩擦阴蒂的……」\n【#10#】「那，那样不行……【#14#】蒂斯虽然也不错……但还是优君的小鸡鸡更好……」\n【#10#】「呀啊！对，对，那个小鸡鸡……好棒！好棒啊！」\n【#11#】「切……真遗憾……呀啊！啊！啊嗯，呀，我也想要小鸡鸡……呀嗯！好厉害……」\n优「没事的。我会公平地插你们的……」",
+  "attempts": 2,
+  "elapsed": 13.821813583374023,
+  "checks": [],
+  "metrics": {
+    "lines_src": 9,
+    "lines_dst": 9,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 9,
+    "quote_dst": 9,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7672131147540984,
+    "similarity": 0.02622950819672131,
+    "max_repeat": 1,
+    "unique_char": 0.3418803418803419
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "9→11"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 371
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 300
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文对话与情感，无实质错误。",
+    "at": "2026-11-08 19:09:55",
+    "secs": 1.0
+  }
+}

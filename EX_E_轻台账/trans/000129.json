@@ -1,0 +1,60 @@
+{
+  "id": 129,
+  "status": "ok",
+  "text": "【#10#】「唉……小优，你不用理这个醉鬼了，只会累到自己而已」\n【#11#】「啊～～～～～，姐姐，你好过分啊！！」\n【#10#】「行了行了，你喝这个吧」\n【#10#】姐从冰箱里拿出两罐啤酒，打开其中一罐，递给【#11#】姐。\n【#11#】「好——我开动啦——！！咕嘟，咕嘟，咕嘟，咕嘟咕嘟」\n【#11#】「噗哈——————，好爽————！！」\n【#10#】「对不起哦，小优」\n优「…………咦？」\n【#10#】「难得你来住，结果弄得这么吵」\n优「啊……没事。我经常一个人吃晚饭，所以这种热闹的气氛我很喜欢」\n【#10#】「是吗？谢谢你」\n【#10#】姐温柔地微笑着，咕嘟咕嘟地喝起刚才和友香姐的份一起拿出来的罐装啤酒。",
+  "attempts": 2,
+  "elapsed": 18.148297786712646,
+  "checks": [],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 10,
+    "quote_dst": 10,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7386018237082067,
+    "similarity": 0.0060790273556231,
+    "max_repeat": 1,
+    "unique_char": 0.4567901234567901
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 393
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 309
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "整体通顺，情感与动作传达准确，无实质错误。",
+    "at": "2026-11-08 19:09:01",
+    "secs": 1.2
+  }
+}

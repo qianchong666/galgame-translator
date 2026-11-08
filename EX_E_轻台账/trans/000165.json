@@ -1,0 +1,72 @@
+{
+  "id": 165,
+  "status": "degraded",
+  "text": "【#10#】「嗯，可以啊。不过，你今天得在暑期补习班好好学习才行哦」\n【#12#】「我会好好学的啦。不用你一直提醒我」\n【#10#】「因为不提醒你的话，你好像马上就会忘记嘛」\n【#12#】「…………你好烦啊」\n【#11#】「嘻嘻。【#12#】君在这方面就是不受姐姐信任呢」\n【#12#】「真是的～～～连【#11#】姐都这么说，太过分了啦」\n【#11#】「啊……抱歉抱歉。学习要加油哦」\n【#12#】「嗯，嗯……我会好好努力的，那个……【#11#】姐，如果你不介意的话，要不要和我们一起去看祭典？」\n【#11#】「咦？我吗？可是，我不会打扰到你们吗？」\n【#12#】「完全不会啦。优，你也没意见吧？对吧？对吧？」\n优「咦……？啊啊，嗯……应该可以吧」",
+  "attempts": 2,
+  "elapsed": 14.121986627578735,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [12]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 11,
+    "quote_dst": 11,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.8601398601398601,
+    "similarity": 0.0034965034965034965,
+    "max_repeat": 1,
+    "unique_char": 0.4186991869918699
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 397
+    },
+    {
+      "round": 2,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [12]"
+        }
+      ],
+      "chars": 324
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，语气和对话感还原到位，无实质错误。",
+    "at": "2026-11-08 19:09:15",
+    "secs": 1.2
+  }
+}

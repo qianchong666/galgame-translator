@@ -1,0 +1,60 @@
+{
+  "id": 254,
+  "status": "ok",
+  "text": "虽然他笑着说『年长的可不止友香一个啊』，但心里一定很难受吧。\n对于向我倾诉这些的贵史，我隐瞒了许多秘密。\n然后，如果我选择了【#10#】或者友香，我又会制造出新的秘密。\n优「………大人，吗……」\n这就是成为大人吗？\n马上就要到零点了。\n我——我……还是……选不了【#10#】……【#11#】……【#10#】「……………………」\n【#11#】「……………………………………」\n【#10#】和友香都瞪着我。\n也许她们不会原谅我。\n但是，我只能这么做。\n【#10#】「小优，这是怎么回事？竟然把我们两个都叫出来」\n【#11#】「是啊，不是说好了要选我和姐姐其中一个人当你的女人吗？」",
+  "attempts": 2,
+  "elapsed": 12.108083724975586,
+  "checks": [],
+  "metrics": {
+    "lines_src": 13,
+    "lines_dst": 13,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7038123167155426,
+    "similarity": 0.011730205278592375,
+    "max_repeat": 1,
+    "unique_char": 0.45
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "13→15"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 400
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 288
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情感与情节，无实质错误。",
+    "at": "2026-11-08 19:09:50",
+    "secs": 0.9
+  }
+}

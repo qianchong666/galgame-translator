@@ -1,0 +1,92 @@
+{
+  "id": 272,
+  "status": "ok",
+  "text": "【#10#】虽然似乎还是对内射有些抵触，但似乎并没有因为我射在里面而生气。\n【#11#】「好了，先不说这个……小优的鸡鸡，还是这么大呢……」\n【#10#】「哎？哇啊啊……呀……真的耶……」\n明明已经射了两次，而且还是大量射精，但我的鸡巴却不可思议地完全没有要软下去的迹象。\n【#10#】「已经……可以了哦。再多射一点吧？」\n【#11#】「不如说我还想要更多呢……呀！嗯唔唔……！」\n这还用说吗。\n我再次开始向两人的小穴发起进攻。\n【#10#】「嗯……呼啊……啊！啊嗯！啊啊嗯……嗯唔……我，我说……鸡，鸡鸡是不是比刚才还要粗了……？」\n优「哎……有，有吗？」\n【#11#】「呀嗯……真，真的耶……呼啊！啊嗯……每次射完都会变大……呀嗯！真是根好鸡鸡呢……」",
+  "attempts": 3,
+  "elapsed": 36.97449541091919,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 7,
+    "quote_dst": 7,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.8056338028169014,
+    "similarity": 0.028169014084507043,
+    "max_repeat": 1,
+    "unique_char": 0.3776223776223776
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 407
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→1"
+        },
+        {
+          "name": "placeholder",
+          "level": "fail",
+          "detail": "缺失1: [11]"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "7→1"
+        },
+        {
+          "name": "length_ratio",
+          "level": "warn",
+          "detail": "2.66"
+        },
+        {
+          "name": "repetition",
+          "level": "fail",
+          "detail": "字符重复率异常 0.01"
+        }
+      ],
+      "chars": 949
+    },
+    {
+      "round": 3,
+      "status": "ok",
+      "checks": [],
+      "chars": 328
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文意思，语感自然，无实质错误。",
+    "at": "2026-11-08 19:09:56",
+    "secs": 1.3
+  }
+}

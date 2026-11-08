@@ -1,0 +1,60 @@
+{
+  "id": 149,
+  "status": "ok",
+  "text": "【#11#】「你喝下去了呢。真了不起。而且，小鸡鸡也好好地忍住了」\n【#11#】小姐的视线移到了我的小鸡鸡上。\n虽然我的小鸡鸡总算是免于射精，但它依然保持着前所未有的勃起状态。\n【#11#】「不过，好厉害……都快要胀破了呢。小优的看起来也很好吃……咕嘟」\n【#11#】小姐吞咽口水的声音在浴室里回响。\n然后，仿佛以此为信号一般，【#11#】小姐摇摇晃晃地站了起来。\n优「……【#11#】小姐」\n她那散发出艳丽光泽的鲑鱼粉色小穴，就在我眼前。\n【#11#】「呐，用小穴来喝吧，用小优那根厉害的小鸡鸡」\n【#11#】「小优也已经忍不住了吧？那就快点……别让女人等太久」\n仔细一看，她的裂缝正淫荡地抽动着。\n简直就像拥有意志，试图对我施加催眠术一样。",
+  "attempts": 2,
+  "elapsed": 12.882321119308472,
+  "checks": [],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7828571428571428,
+    "similarity": 0.002857142857142857,
+    "max_repeat": 1,
+    "unique_char": 0.5437956204379562
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 411
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 322
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文意思，语感自然，无实质错误。",
+    "at": "2026-11-08 19:09:09",
+    "secs": 1.2
+  }
+}

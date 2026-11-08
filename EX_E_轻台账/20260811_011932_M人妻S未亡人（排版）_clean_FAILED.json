@@ -1,0 +1,75 @@
+{
+  "source": "归档\\旧输出\\OUT\\20260811_011932_M人妻S未亡人（排版）_clean.txt",
+  "reason": "3 个块未通过质检（strict 模式不产出成品）",
+  "failed_ids": [
+    129,
+    148,
+    163
+  ],
+  "failed_detail": [
+    {
+      "id": 129,
+      "detail": "failed | prompt_echo:fail(命中特征: 不要输出任何说明性文字); line_count:fail(12→14); placeholder:warn(次数不符: [10])",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "detail": "failed | prompt_echo:fail(命中特征: 不要输出任何说明性文字); line_count:fail(14→16); placeholder:warn(次数不符: [11])",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→16"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "detail": "failed | prompt_echo:fail(命中特征: 不要输出任何说明性文字); line_count:fail(15→17); placeholder:warn(次数不符: [11])",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "15→17"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ]
+    }
+  ],
+  "hint": "可用 --allow-partial 生成部分译文，或调大 chunk 尺寸/换模型重跑"
+}

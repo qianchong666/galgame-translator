@@ -1,0 +1,60 @@
+{
+  "id": 163,
+  "status": "ok",
+  "text": "优「…………嗯？」\n咦？\n【#11#】小姐的脸红了。\n【#11#】「你想啊，我和小优……昨天，那个……不是做了……嘛。色色的事」\n优「啊……是，是啊……嗯」\n被满脸羞涩的友香小姐盯着看，我也开始害羞了。\n【#11#】「我跟你说哦，根据我的经验，那种事很厉害的人，酒量也——」\n【#11#】「真是的，小优，你让我说了什么呀」\n【#11#】小姐满脸通红地笑着，用力拍了拍我的背。\n优「好痛，很痛啊，【#11#】小姐。这不是【#11#】小姐自己说的吗」\n【#11#】「真，真是的。一大早就脸红了。我去冲个冷水澡吧」\n【#11#】小姐这么说着，啪嗒啪嗒地逃走了。\n优「…………嘿嘿」\n这样啊。\n原来我是酒量很好的人啊。",
+  "attempts": 2,
+  "elapsed": 18.25385856628418,
+  "checks": [],
+  "metrics": {
+    "lines_src": 15,
+    "lines_dst": 15,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 8,
+    "quote_dst": 8,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7819314641744548,
+    "similarity": 0.024922118380062305,
+    "max_repeat": 1,
+    "unique_char": 0.3745019920318725
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "15→17"
+        },
+        {
+          "name": "placeholder",
+          "level": "fail",
+          "detail": "凭空出现: [10]"
+        }
+      ],
+      "chars": 363
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 305
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误，符合轻小说风格。",
+    "at": "2026-11-08 19:09:15",
+    "secs": 1.1
+  }
+}

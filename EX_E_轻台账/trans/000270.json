@@ -1,0 +1,60 @@
+{
+  "id": 270,
+  "status": "ok",
+  "text": "【#11#】「真，真敢说大话……呀啊！啊嗯！啊……咿唔唔唔……！！」\n我狠狠地将肉棒顶进逞强的友香小姐的深处，像在摩擦一样扭动着腰。\n【#11#】「呀唔唔……呀啊啊！呀啊啊啊……！」\n【#11#】小姐的身体像被击垮一样颤抖着。\n而那股震动直接传到了礼子小姐的阴蒂……\n【#10#】「呀啊……呼啊啊啊……呀啊啊嗯……好棒，好棒棒棒棒……！！」\n因为交替着搅动，我已经分不清哪边是哪边的小穴了。\n不过，这样也无所谓。\n因为我在同时侵犯着她们两人……\n【#11#】「呐……小优……射在里面……射在里面吧……呐，姐姐也想要你射在里面吧？」\n【#10#】「呼咦？射，射在里面……里面……啊！呀嗯……！」",
+  "attempts": 2,
+  "elapsed": 13.737130641937256,
+  "checks": [],
+  "metrics": {
+    "lines_src": 11,
+    "lines_dst": 11,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7878787878787878,
+    "similarity": 0.00909090909090909,
+    "max_repeat": 1,
+    "unique_char": 0.40384615384615385
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "11→13"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10, 11]"
+        }
+      ],
+      "chars": 387
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 296
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:09:56",
+    "secs": 1.1
+  }
+}

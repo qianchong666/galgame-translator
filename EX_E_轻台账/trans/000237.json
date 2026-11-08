@@ -1,0 +1,60 @@
+{
+  "id": 237,
+  "status": "ok",
+  "text": "虽然非常想听，但偷听还是太可怕了。\n要是被发现的话，这次会变成什么样呢。\n优「怎，怎么办……真的…………」\n说不定，会变成很糟糕的事态。\n毕竟……我脚踏两只船了啊。\n事到如今，我才为自己的所作所为之严重而颤抖，一个人度过了不安的时光。\n然后……【#10#】「小优，久等了」\n【#11#】「抱歉啊，让你一个人留在这儿」\n…………咦？\n？\n意外地很快就回来的两人，刚才的紧迫感就像假的一样，露出了平时的表情。\n优「那个，谈话……结束了吗？」\n我战战兢兢地试着问道。\n【#10#】「嗯，结束了哦」\n【#11#】「果然是姐妹呢。想着同一件事呢」\n【#10#】「嘻嘻，是啊……想东想西的，像个笨蛋一样」\n【#11#】「真的呢～～～～」\n两人都笑嘻嘻的。",
+  "attempts": 2,
+  "elapsed": 13.250506401062012,
+  "checks": [],
+  "metrics": {
+    "lines_src": 18,
+    "lines_dst": 18,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 8,
+    "quote_dst": 8,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7894736842105263,
+    "similarity": 0.002770083102493075,
+    "max_repeat": 1,
+    "unique_char": 0.47719298245614034
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "18→20"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 408
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 321
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "整体通顺，情感与对话还原到位，无实质错误。",
+    "at": "2026-11-08 19:09:43",
+    "secs": 1.1
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": 140,
+  "status": "degraded",
+  "text": "【#11#】「听好了？\n要是你敢自己撸，我就把这件事全部告诉姐姐哦」\n优「怎，怎么这样……」\n【#11#】「那就乖乖听话。来，把右手从肉棒上拿开，把我的小穴舔干净」\n优「好……好的……」\n我无可奈何地放开了自己的肉棒。\n但是我的肉棒已经膨胀到就算不用手也能射精的程度了。\n但要是我自慰的话，【#10#】姐就会把这件事全部抖出来。\n总之先让注意力从肉棒上移开吧。\n我这么想着，把舌头伸向了【#11#】姐粉色的裂缝。\n【#11#】「嗯……嗯唔唔……呼啊啊！」\n那一瞬间，【#11#】姐的身体猛地一颤。",
+  "attempts": 2,
+  "elapsed": 11.22072458267212,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [11]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.6928104575163399,
+    "similarity": 0.0,
+    "max_repeat": 1,
+    "unique_char": 0.5047169811320755
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 344
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→11"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 247
+    },
+    {
+      "round": "line_repair",
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ]
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:09:07",
+    "secs": 0.9
+  }
+}

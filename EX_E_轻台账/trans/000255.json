@@ -1,0 +1,60 @@
+{
+  "id": 255,
+  "status": "ok",
+  "text": "优「……………………」\n【#10#】「小优，别不说话啊，说点什么啊！」\n【#11#】「就是啊。根据你的回答……小优，你应该知道吧？」\n我往腹部使了使劲。\n优「我，我选不出来！！」\n【#10#】「…………！」\n【#11#】「………………！！」\n优「我没办法只选一个。因为，【#10#】和友香，是你们两个人让我变成大人的」\n优「我，非常喜欢你们两个人。不管是性格，还是做爱」\n优「不管是欺负【#10#】，还是被【#11#】欺负，都一样舒服，一样开心，所以我，没办法做出选择！！」\n【#10#】「所以呢？你觉得只要说一句“我选不出来，对不起”，我们就会原谅你吗？」\n【#11#】「和我们两个人一起享受了那么多，再怎么说也不能原谅你啊」",
+  "attempts": 2,
+  "elapsed": 12.693121671676636,
+  "checks": [],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 11,
+    "quote_dst": 11,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.771513353115727,
+    "similarity": 0.04154302670623145,
+    "max_repeat": 1,
+    "unique_char": 0.3923076923076923
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 395
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 314
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "整体语义准确，情感与语气传达到位，无实质错误。",
+    "at": "2026-11-08 19:09:50",
+    "secs": 0.8
+  }
+}

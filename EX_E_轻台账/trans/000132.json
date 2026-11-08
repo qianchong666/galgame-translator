@@ -1,0 +1,60 @@
+{
+  "id": 132,
+  "status": "ok",
+  "text": "优「诶……？啊，是的……」\n【#11#】「嘻嘻……是啊。虽然优君只能喝一点点酒，但毕竟已经是大人了呢」\n【#10#】「是啊……和【#12#】不一样呢。优君真的是个大人了……呵呵」\n【#10#】小姐和友香小姐，两人都用妩媚的眼神看着我。\n但是，被说成是“大人”，就好像在暗示白天的事情一样，让我有些坐立不安。\n【#11#】「说起来，优君今晚不能睡在【#12#】君的房间里呢」\n【#11#】「那要不要来我房间？我可以让你睡在我旁边哦」\n诶！\n？\n【#10#】「不行哦，【#11#】。优君可是我的客人。今晚就让他睡在我房间吧」\n诶诶————！\n？\n【#11#】「哇，姐姐，你打算让别的男人进到夫妻的卧室里吗？你到底想干什么啊？」",
+  "attempts": 2,
+  "elapsed": 12.651918649673462,
+  "checks": [],
+  "metrics": {
+    "lines_src": 13,
+    "lines_dst": 13,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 7,
+    "quote_dst": 7,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7917981072555205,
+    "similarity": 0.03470031545741325,
+    "max_repeat": 1,
+    "unique_char": 0.44223107569721115
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "13→15"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 395
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 311
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误。",
+    "at": "2026-11-08 19:09:03",
+    "secs": 0.9
+  }
+}

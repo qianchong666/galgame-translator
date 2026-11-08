@@ -1,0 +1,60 @@
+{
+  "id": 187,
+  "status": "ok",
+  "text": "【#12#】那家伙，今天真的打算向【#11#】告白吗？\n【#11#】「大叔，给我来一份杏子糖葫芦」\n也不知道【#11#】知不知道【#12#】的心意，她正在杏子糖葫芦的摊位上抽签。\n优「【#11#】看起来很开心呢」\n【#10#】「都一把年纪了，还那么兴奋，跟以前一点都没变」\n优「她从刚才开始就吃了好多东西啊，什锦烧和法兰克福香肠之类的」\n【#10#】「【#11#】最喜欢那种垃圾食品了。可她为什么就是吃不胖呢？」\n【#10#】「吃那么多东西却一点都不胖，太奇怪了，绝对很奇怪，对吧，小优」\n优「哎……？是……是啊……」\n要是说错话，感觉会很不妙，所以我含糊其辞地搪塞了过去。\n【#11#】「来，小优，给你一个大的」\n优「啊……谢谢」",
+  "attempts": 2,
+  "elapsed": 13.975499629974365,
+  "checks": [],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 9,
+    "quote_dst": 9,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.78125,
+    "similarity": 0.0,
+    "max_repeat": 1,
+    "unique_char": 0.528
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [12]"
+        }
+      ],
+      "chars": 384
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 316
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确流畅，无实质错误。",
+    "at": "2026-11-08 19:09:24",
+    "secs": 1.1
+  }
+}

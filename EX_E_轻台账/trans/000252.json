@@ -1,0 +1,60 @@
+{
+  "id": 252,
+  "status": "ok",
+  "text": "【#10#】「呵呵呵……小优，明天我老公就要回来了。也就是说，今晚是最后一次能在这里过夜了」\n优「…………诶？」\n【#10#】「所以，今晚就由小优来决定要和谁做……是我，还是【#11#】，选一个你想收为己有的女人吧」\n【#11#】「是啊。你就和这根肉棒商量一下，决定一下喜欢哪个小穴吧……呵呵呵」\n怎……怎么这样。\n刚刚才觉得不可能，结果今晚又必须做出决定。\n我到底该怎么办啊！\n？\n优「…………已经这么晚了……」\n白天，被【#10#】和友香同学的双重口交攻击之后，我一～～～～～直在思考。\n到底该选【#10#】还是友香同学。\n总是那么认真，对学习也很严格。\n但又喜欢可爱的东西，这样的礼子小姐。\n那个人想要被我侵犯。",
+  "attempts": 2,
+  "elapsed": 12.985836505889893,
+  "checks": [],
+  "metrics": {
+    "lines_src": 14,
+    "lines_dst": 14,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 5,
+    "quote_dst": 5,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.773371104815864,
+    "similarity": 0.0113314447592068,
+    "max_repeat": 1,
+    "unique_char": 0.45787545787545786
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→16"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 390
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 309
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文意思，语感自然，无实质错误。",
+    "at": "2026-11-08 19:09:49",
+    "secs": 1.2
+  }
+}

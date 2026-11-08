@@ -1,0 +1,92 @@
+{
+  "id": 233,
+  "status": "ok",
+  "text": "【#11#】小姐的手紧紧按住我的手的瞬间，我将插在小穴里的手指猛地一弯。\n【#11#】「嗯嗯唔唔唔唔嗯嗯嗯嗯嗯嗯嗯！！」\n啊……高潮了。\n【#11#】小姐高潮了。\n因高潮而颤抖的友香小姐的小穴，紧紧地箍住了我的手指。\n【#11#】「哈啊啊，哈啊啊……哈啊，哈啊……小优……你……果然……很棒呢……」\n【#11#】「嗯……哈啊，哈啊……我果然还是想要你。不想把你让给姐姐……哈啊，哈啊……」\n【#11#】「小优……作为男人，你要好好地……在我和姐姐之间……做出选择哦……知道了吗？」\n优「…………咦？」\n【#11#】「小优……真，真是的……你也已经，无法回头了哦……哈啊，哈啊……呵呵呵」\n作为男人，要在【#10#】小姐和友香小姐之间，选择其中一个？\n？\n明明昨天才刚被她们两个变成男人的。",
+  "attempts": 3,
+  "elapsed": 62.368468284606934,
+  "checks": [],
+  "metrics": {
+    "lines_src": 13,
+    "lines_dst": 13,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 6,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.8481375358166189,
+    "similarity": 0.025787965616045846,
+    "max_repeat": 1,
+    "unique_char": 0.32432432432432434
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "13→15"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 408
+    },
+    {
+      "round": 2,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "13→1"
+        },
+        {
+          "name": "placeholder",
+          "level": "fail",
+          "detail": "缺失1: [10]"
+        },
+        {
+          "name": "quote_anchor",
+          "level": "warn",
+          "detail": "6→1"
+        },
+        {
+          "name": "length_ratio",
+          "level": "fail",
+          "detail": "4.07"
+        },
+        {
+          "name": "repetition",
+          "level": "fail",
+          "detail": "字符重复率异常 0.00"
+        }
+      ],
+      "chars": 1428
+    },
+    {
+      "round": 3,
+      "status": "ok",
+      "checks": [],
+      "chars": 344
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:09:42",
+    "secs": 1.1
+  }
+}

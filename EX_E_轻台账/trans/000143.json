@@ -1,0 +1,60 @@
+{
+  "id": 143,
+  "status": "ok",
+  "text": "【#11#】「小优现在正在打扫哦。明白吗？嗯……必须把我的小穴打扫干净才行」\n优「好，好的……」\n【#11#】「所以你要把它们全都喝下去。一滴不剩，全都喝干净哦」\n优「要，要喝吗！？」\n我的肉棒又猛地一跳，变得更大了。\n优「不，不行……不行啦！那种事……」\n要是做了那种事……我就再也忍不住了。\n【#11#】「怎么？你说不行？既然你这么说，那我就把你这副样子带到姐姐那里去哦……可以吗？」\n优「怎，怎么这样……怎么这样……」\n不管怎样，我都没有选择的余地。\n既然不喝和喝了之后的结果都一样，那我只能祈祷自己能喝下去了……\n优「我明白了……嗯……啾……哔啾……哔啾……！」",
+  "attempts": 2,
+  "elapsed": 11.205820798873901,
+  "checks": [],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 8,
+    "quote_dst": 8,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7876106194690266,
+    "similarity": 0.0029498525073746312,
+    "max_repeat": 1,
+    "unique_char": 0.3782771535580524
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "12→14"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [11]"
+        }
+      ],
+      "chars": 365
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 285
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "整体语义准确，人称与称谓一致，无实质错误。",
+    "at": "2026-11-08 19:09:07",
+    "secs": 1.1
+  }
+}

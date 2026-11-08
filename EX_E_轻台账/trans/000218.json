@@ -1,0 +1,60 @@
+{
+  "id": 218,
+  "status": "ok",
+  "text": "【#11#】「不过，这么夸张还是第一次呢。看来她真的很喜欢你的小鸡鸡」\n【#11#】小姐一边说着，一边将礼子小姐的眼罩摘了下来。\n【#10#】「……嗯咕……」\n【#11#】「呵呵呵……感觉已经精疲力尽了呢……」\n看到礼子小姐筋疲力尽的表情，友香小姐满足地笑了。\n【#11#】「小优，你不把小鸡鸡拔出来吗？已经全都射出来了吧？」\n优「咦……可是，我……」\n没错，射精早就结束了。\n但是，我不想拔出小鸡鸡。\n我想继续留在礼子小姐那即使失去意识，依然在抽搐的阴道里。\n【#11#】「不过这样一来，小优也明白了吧。姐姐她有多么淫乱……」\n我俯视着礼子小姐，她的身体火烫，汗水像灵魂一样从身上挥发。\n她说得没错。\n【#10#】小姐的身体非常淫荡。",
+  "attempts": 2,
+  "elapsed": 13.513494968414307,
+  "checks": [],
+  "metrics": {
+    "lines_src": 14,
+    "lines_dst": 14,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 6,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.8046647230320699,
+    "similarity": 0.0058309037900874635,
+    "max_repeat": 1,
+    "unique_char": 0.463768115942029
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "failed",
+      "checks": [
+        {
+          "name": "prompt_echo",
+          "level": "fail",
+          "detail": "命中特征: 不要输出任何说明性文字"
+        },
+        {
+          "name": "line_count",
+          "level": "fail",
+          "detail": "14→16"
+        },
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 406
+    },
+    {
+      "round": 2,
+      "status": "ok",
+      "checks": [],
+      "chars": 318
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "整体语义准确，语感自然，无实质错误。",
+    "at": "2026-11-08 19:09:36",
+    "secs": 1.1
+  }
+}

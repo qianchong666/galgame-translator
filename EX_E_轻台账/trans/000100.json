@@ -1,0 +1,50 @@
+{
+  "id": 100,
+  "status": "degraded",
+  "text": "优「啊……礼，【#10#】……我，我……我……嗯嗯，嗯嗯嗯！！」\n我的肉棒在【#10#】的嘴里一跳一跳地搏动着。\n【#10#】「嗯……啊嗯，要射了吗……可以哦，射出来吧！！」\n【#10#】用双手抓住肉棒的根部，用力往下拉扯，让肉棒更加膨胀。\n优「啊啊啊啊啊！！」\n过于强烈的快感让我忍不住往后退，肉棒从【#10#】的嘴里滑了出来。\n【#10#】「啾噜噜噜嗯嗯嗯嗯！！」\n就在那一瞬间，【#10#】的舌头追着我的肉棒，那股刺激让我射精了。\n【#10#】「嗯嗯嗯嗯嗯嗯嗯嗯嗯！？」\n伴随着“啪嗒”的巨大声响，【#10#】的脸上沾满了我射出的精液。\n优「啊……【#10#】……」\n不行！",
+  "attempts": 1,
+  "elapsed": 7.584364175796509,
+  "checks": [
+    {
+      "name": "placeholder",
+      "level": "warn",
+      "detail": "次数不符: [10]"
+    }
+  ],
+  "metrics": {
+    "lines_src": 12,
+    "lines_dst": 12,
+    "line_diff": 0.0,
+    "ph_expected": 0.0,
+    "ph_missing": 0.0,
+    "quote_src": 6,
+    "quote_dst": 6,
+    "kana_ratio": 0.0,
+    "length_ratio": 0.7033639143730887,
+    "similarity": 0.009174311926605505,
+    "max_repeat": 1,
+    "unique_char": 0.4043478260869565
+  },
+  "attempts_log": [
+    {
+      "round": 1,
+      "status": "degraded",
+      "checks": [
+        {
+          "name": "placeholder",
+          "level": "warn",
+          "detail": "次数不符: [10]"
+        }
+      ],
+      "chars": 290
+    }
+  ],
+  "finish": "stop",
+  "review": {
+    "verdict": "ok",
+    "notes": [],
+    "reason": "译文准确传达原文情节与语气，无实质错误。",
+    "at": "2026-11-08 19:08:50",
+    "secs": 1.1
+  }
+}
